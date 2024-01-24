@@ -2,6 +2,10 @@
 
 This is the official repository of paper "DeepTreeSketch: Neural Graph Prediction for Faithful 3D Tree Modeling from Sketches. Zhihao Liu, et al., ACM CHI, 2024".
 
+In this stage we first shared our tree dataset, the full codes will be released after the final acceptance (currently this paper is conditionally accepted).
+
+Please refer to my [[homepage]](https://ryuzhihao123.github.io/) for my other projects and codes.
+
 ## 1. Tree Dataset
 In the very beginning, we implemented a very comprehensive **Parametric l-system algorithm** for creating diverse high-quality 3D tree models automatically as the training dataset. 
 This algorithm contributes the majority (approx. 90%) of our training set, while the rest are the real-world trees reconstructed from point clouds and images.
