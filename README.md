@@ -4,13 +4,13 @@ This is the official repository of paper "DeepTreeSketch: Neural Graph Predictio
 
 In this stage we first shared our tree dataset, the full codes will be released after the final acceptance (currently this paper is conditionally accepted).
 
-Please refer to my [[homepage]](https://ryuzhihao123.github.io/) for my other projects and codes.
+Please refer to my [homepage](https://ryuzhihao123.github.io/) for my other projects and codes.
 
 ## 1. Tree Dataset
 In the very beginning, we implemented a very comprehensive **Parametric l-system algorithm** for creating diverse high-quality 3D tree models automatically as the training dataset. 
 This algorithm contributes the majority (approx. 90%) of our training set, while the rest are the real-world trees reconstructed from point clouds and images.
 
-Please download our dataset through this [[link]](https://vcc.tech/research/2021/TreePartNet)  (password: xyz)
+**Please download our dataset through this [[link]](https://vcc.tech/research/2021/TreePartNet)  (password: xyz)**
 
 #### (a) More details on L-system Algorithm:
 **$\bullet$ Noted that,** apart from our CHI submission, **my implemented algorithm** has been also used by a few top-tier papers to generate training dataset, including several recent **``SIGGRAPH-level``** papers, such as:
