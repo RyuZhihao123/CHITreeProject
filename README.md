@@ -13,7 +13,7 @@ This algorithm contributes the majority (approx. 90%) of our training set, while
 **Please download our dataset through this [[link]](https://vcc.tech/research/2021/TreePartNet)  (password: xyz)**
 
 #### (a) More details on L-system Algorithm:
-**$\bullet$ Noted that,** apart from our CHI submission, **my implemented codes** have been also used by a few top-tier papers to generate training dataset, including several recent **``SIGGRAPH-level``** papers, such as:
+**$\bullet$ Noted that,** apart from our CHI submission, **my implemented algorithm** have been also used by a few top-tier papers to generate training dataset, including several recent **``SIGGRAPH-level``** papers, such as:
 
 > **TreePartNet: Neural Decomposition of Point Clouds for 3D Tree Reconstruction.**
 >
