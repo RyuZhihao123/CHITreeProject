@@ -7,8 +7,8 @@ In the very beginning, we implemented a very comprehensive **Parametric l-system
 
 Please download our dataset through this [[link]](https://vcc.tech/research/2021/TreePartNet)  (password: xyz)
 
-### - More details on L-system Algorithm.
-**$\bullet$ Noted that**: apart from our CHI submission, my implemented algorithm has been used by a few top-tier papers to generate training dataset as well, including several recent **SIGGRAPH-level** papers, such as:
+#### - More details on L-system Algorithm:
+**$\bullet$ Noted that:** apart from our CHI submission, **my implemented algorithm** has been also used by a few top-tier papers to generate training dataset, including several recent **``SIGGRAPH-level``** papers, such as:
 
 > **TreePartNet: Neural Decomposition of Point Clouds for 3D Tree Reconstruction.**
 >
