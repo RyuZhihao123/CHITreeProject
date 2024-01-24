@@ -1,4 +1,4 @@
-# CHI_DeepTreeSketch
+# CHI24_DeepTreeSketch
 
 This is the official repository of paper "DeepTreeSketch: Neural Graph Prediction for Faithful 3D Tree Modeling from Sketches. Zhihao Liu, et al., ACM CHI, 2024".
 
