@@ -2,7 +2,7 @@
 
 This is the official repository of paper "DeepTreeSketch: Neural Graph Prediction for Faithful 3D Tree Modeling from Sketches. Zhihao Liu, et al., ACM CHI, 2024".
 
-In this stage we first shared our tree dataset, the full codes will be released after the final acceptance (currently this paper is conditionally accepted).
+In this stage we first shared our tree dataset to provide more information to address some concerns, the full source codes will be released right after the final acceptance (currently this paper is conditionally accepted).
 
 Please refer to my [homepage](https://ryuzhihao123.github.io/) for my other projects and codes.
 
