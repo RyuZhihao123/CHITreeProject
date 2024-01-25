@@ -12,7 +12,7 @@ This algorithm contributes the majority (approx. 90%) of our training set, while
 
 **Dataset Link:** Please download our dataset through this [[link]](https://vcc.tech/research/2021/TreePartNet)  (password: xyz)
 
-### (a) Basic Information on Our L-system Algorithm:
+### (a) Basic information on our L-system algorithm:
 **$\bullet$ Noted that**, apart from our CHI submission, **``my implemented algorithm``** have been also used by a few top-tier papers to generate training dataset, including several recent **``SIGGRAPH-level``** papers, such as:
 
 > **TreePartNet: Neural Decomposition of Point Clouds for 3D Tree Reconstruction.**
@@ -35,7 +35,7 @@ Since the Parametric L-system is a fairly complicated algorithm that cannot be b
 [[XXX et al.]](https://vcc.tech/research/2021/TreePartNet)  [[YYY et al.]](https://vcc.tech/research/2021/TreePartNet) [[ZZZ et al.]](https://vcc.tech/research/2021/TreePartNet) 
 
 
-### (b) Format of Our Synthesized Data:
+### (b) Format of our synthesized data:
 **$\bullet$** In our CHI submission, we synthesized a large tree dataset with 12 different species. Here are some examples in our dataset:
 
 ![examples](https://github.com/RyuZhihao123/CHI_DeepTreeSketch/blob/main/Figures/1-tree-exps-1.png)
