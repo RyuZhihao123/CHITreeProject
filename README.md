@@ -6,7 +6,7 @@ In this stage we first shared our tree dataset to provide more information to ad
 
 **Please download our dataset through this [[link]](https://vcc.tech/research/2021/TreePartNet)  (password: xyz)**
 
-Please refer to my [homepage](https://ryuzhihao123.github.io/) for my other projects and codes.
+If interested, please refer to my [homepage](https://ryuzhihao123.github.io/) for my other relavent projects and codes.
 
 ## 1. Tree Dataset
 In the very beginning, we implemented a very comprehensive **Parametric l-system algorithm** for creating diverse high-quality 3D tree models automatically as the training dataset. 
