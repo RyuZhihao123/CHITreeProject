@@ -4,6 +4,8 @@ This is the official repository of paper "DeepTreeSketch: Neural Graph Predictio
 
 In this stage we first shared our tree dataset to provide more information to address some concerns, the full source codes will be released right after the final acceptance.
 
+**Please download our dataset through this [[link]](https://vcc.tech/research/2021/TreePartNet)  (password: xyz)**
+
 Please refer to my [homepage](https://ryuzhihao123.github.io/) for my other projects and codes.
 
 ## 1. Tree Dataset
