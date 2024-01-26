@@ -15,7 +15,7 @@ This algorithm contributes the majority (approx. 90%) of our training set, while
 
 ### (a) Basic information on our L-system algorithm:
 
-**$\bullet$**${\color{red}\text{Note that, apart from our CHI submission, }}$ **``my implemented algorithm``**${\color{red}\text{ has been also used}}$ ${\color{red}\text{by a few top-tier papers}}$ ${\color{red}\text{to generate training dataset, }}$
+**$\bullet$** ${\color{red}\text{Note that, apart from our CHI submission, }}$ **``my implemented algorithm``**${\color{red}\text{ has been also used}}$ ${\color{red}\text{by a few Top-tier papers}}$ ${\color{red}\text{to generate training dataset, }}$
 ${\color{red}\text{including several recent }}$ **``SIGGRAPH-level``** ${\color{red}\text{papers, such as:}}$
 
 
