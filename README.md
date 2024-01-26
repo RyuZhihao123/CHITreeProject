@@ -4,7 +4,7 @@ This is the official repository of paper "DeepTreeSketch: Neural Graph Predictio
 
 If interested, please check my [homepage](https://ryuzhihao123.github.io/) for my other projects and codes.
 
-In current stage, we first mainly shared our tree dataset to provide more information to address some concerns, the entire source codes will be released right after the final acceptance.
+In current stage, we first mainly shared our tree dataset [[link]](https://vcc.tech/research/2021/TreePartNet) to provide more information to address some concerns, the entire source codes will be released right after the final acceptance.
 
 
 ## 1. Tree Dataset
@@ -21,7 +21,7 @@ ${\color{red}\text{including several recent }}$ **``SIGGRAPH-level``** ${\color{
 
 > **TreePartNet: Neural Decomposition of Point Clouds for 3D Tree Reconstruction.**
 >
-> **SIGGRAPH Asia 2021** (ACM Transactions on Graphics). [[Papar]](https://vcc.tech/research/2021/TreePartNet) 
+> **SIGGRAPH Asia 2021** (ACM Transactions on Graphics). [[Paper]](https://dl.acm.org/doi/abs/10.1145/3478513.3480486) 
 
 ${\color{red}\text{Please see their}}$ **``Acknowledgement section``** ${\color{red}\text{for some proof that their authors borrowed my codes and data in their paper:}}$
 
