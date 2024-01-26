@@ -6,6 +6,7 @@ If interested, please check my [homepage](https://ryuzhihao123.github.io/) for m
 
 In current stage, we first mainly shared our tree dataset to provide more information to address some concerns, the entire source codes will be released right after the final acceptance.
 
+
 ## 1. Tree Dataset
 In the very beginning, we implemented a very comprehensive **Parametric l-system algorithm** for creating diverse high-quality 3D tree models automatically as the training dataset. 
 This algorithm contributes the majority (approx. 90%) of our training set, while the rest are the real-world trees reconstructed from point clouds and images.
@@ -13,14 +14,16 @@ This algorithm contributes the majority (approx. 90%) of our training set, while
 **Dataset Link:** Please download our dataset through this [[link]](https://vcc.tech/research/2021/TreePartNet)  (password: xyz)
 
 ### (a) Basic information on our L-system algorithm:
-**$\bullet$ Noted that**, apart from our CHI submission, **``my implemented algorithm``** have been also used by a few top-tier papers to generate training dataset, including several recent **``SIGGRAPH-level``** papers, such as:
+
+**$\bullet$**${\color{red}\text{Note that, apart from our CHI submission, }}$ ``my implemented algorithm``${\color{red}\text{ has been also used by a few top-tier papers to generate training dataset, }}$
+${\color{red}\text{including several recent }}$ ``SIGGRAPH-level`` ${\color{red}\text{papers, such as:}}$
+
 
 > **TreePartNet: Neural Decomposition of Point Clouds for 3D Tree Reconstruction.**
 >
 > **SIGGRAPH Asia 2021** (ACM Transactions on Graphics). [[Papar]](https://vcc.tech/research/2021/TreePartNet) 
 
-
-Please see their **``Acknowledgement section``** for some proof that their authors borrowed my codes and data in their paper:
+${\color{red}\text{Please see their}}$ ``Acknowledgement section`` ${\color{red}\text{for some proof that their authors borrowed my codes and data in their paper:}}$
 
 <div align=center>
 <img src="https://github.com/RyuZhihao123/CHI_DeepTreeSketch/blob/main/Figures/0-ack.png" width = "800" alt="ack" align=center />
