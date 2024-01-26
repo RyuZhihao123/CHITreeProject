@@ -4,7 +4,7 @@ This is the official repository of paper "DeepTreeSketch: Neural Graph Predictio
 
 If interested, please check my [homepage](https://ryuzhihao123.github.io/) for my other projects and codes.
 
-In this stage we first shared our tree dataset to provide more information to address some concerns, the full source codes will be released right after the final acceptance.
+In current stage, we first mainly shared our tree dataset to provide more information to address some concerns, the entire source codes will be released right after the final acceptance.
 
 ## 1. Tree Dataset
 In the very beginning, we implemented a very comprehensive **Parametric l-system algorithm** for creating diverse high-quality 3D tree models automatically as the training dataset. 
