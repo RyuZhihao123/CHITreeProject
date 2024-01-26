@@ -15,15 +15,15 @@ This algorithm contributes the majority (approx. 90%) of our training set, while
 
 ### (a) Basic information on our L-system algorithm:
 
-**$\bullet$**${\color{red}\text{Note that, apart from our CHI submission, }}$ ``my implemented algorithm``${\color{red}\text{ has been also used}}$ ${\color{red}\text{by a few top-tier papers}}$ ${\color{red}\text{to generate training dataset, }}$
-${\color{red}\text{including several recent }}$ ``SIGGRAPH-level`` ${\color{red}\text{papers, such as:}}$
+**$\bullet$**${\color{red}\text{Note that, apart from our CHI submission, }}$ **``my implemented algorithm``**${\color{red}\text{ has been also used}}$ ${\color{red}\text{by a few top-tier papers}}$ ${\color{red}\text{to generate training dataset, }}$
+${\color{red}\text{including several recent }}$ **``SIGGRAPH-level``** ${\color{red}\text{papers, such as:}}$
 
 
 > **TreePartNet: Neural Decomposition of Point Clouds for 3D Tree Reconstruction.**
 >
 > **SIGGRAPH Asia 2021** (ACM Transactions on Graphics). [[Papar]](https://vcc.tech/research/2021/TreePartNet) 
 
-${\color{red}\text{Please see their}}$ ``Acknowledgement section`` ${\color{red}\text{for some proof that their authors borrowed my codes and data in their paper:}}$
+${\color{red}\text{Please see their}}$ **``Acknowledgement section``** ${\color{red}\text{for some proof that their authors borrowed my codes and data in their paper:}}$
 
 <div align=center>
 <img src="https://github.com/RyuZhihao123/CHI_DeepTreeSketch/blob/main/Figures/0-ack.png" width = "800" alt="ack" align=center />
