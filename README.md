@@ -42,24 +42,38 @@ Since the Parametric L-system is a fairly complicated algorithm that cannot be b
 
 
 ### (b) Format of our synthesized data:
-- In our CHI submission, we synthesized a large tree dataset with 12 different species. Here are some examples in our dataset:
+
+In our CHI submission, we synthesized a large tree dataset with 12 different species in total. 
+Here are some examples in our dataset:
 
 <div align=center>
 <img src="https://github.com/RyuZhihao123/CHI_DeepTreeSketch/blob/main/Figures/1-tree-exps-1.png" width = "800" alt="ack" align=center />
 </div>
 
+<br/>
 
-- In our dataset, each ``".tree"`` file corresponds to one tree skeleton sample. One such file is compossed of a set of lines. Below is a simple example:
-```
-{node_id: 0, pos: [0.000, 0.000, 0.000], branch_id: 0, parent_id: -1, children_ids: [1]},
-{node_id: 1, pos: [0.001, 0.012, 0.002], branch_id: 0, parent_id: 0, children_ids: [2, 3]},
-{node_id: 2, pos: [-0.004, 0.180, 0.000], branch_id: 0, parent_id: 1, children_ids: [4, ]},
-{node_id: 3, pos: [-0.023, 0.262, 0.00], branch_id: 0, parent_id: 2, children_ids: [5]},
-{node_id: 3, pos: [-0.023, 0.262, 0.00], branch_id: 0, parent_id: 2, children_ids: [5]},
+Since our proposed neural network (TGP-Net) is designed to process the tree skeletons, we mainly store the branching structures (skeletons) in the dataset, to help reduce the memory footprint.
+
+In our dataset, **each ``.skel`` file** records the full branching structure of a 3D tree skeleton, and corresponds to one training sample. The ``.skel`` file is organized in JSON format, thus you can use any JSON loader to easilly decode its structure. 
+
+Below is a simple example used to explain the data format:
+```c
+// Tree nodes:
+{type: "treenode", node_id: 0, pos: [0.000, 0.000, 0.000], branch_id: 0, parent_id: -1, children_ids: [1]},
+{type: "treenode", node_id: 1, pos: [0.001, 0.012, 0.002], branch_id: 0, parent_id: 0, children_ids: [2, 3]},
+{type: "treenode", node_id: 2, pos: [-0.004, 0.180, 0.000], branch_id: 0, parent_id: 1, children_ids: [4, ]},
+{type: "treenode", node_id: 3, pos: [-0.023, 0.262, 0.00], branch_id: 0, parent_id: 2, children_ids: [5]},
+{type: "treenode", node_id: 3, pos: [-0.023, 0.262, 0.00], branch_id: 0, parent_id: 2, children_ids: [5]},
+......
+// Leaves:
+{type: "leaf", leaf_id: 0, parent_node_id: 72, pos: [0.321, 0.682, 0.407], orientation: []},
+{type: "leaf", leaf_id: 1, parent_node_id: 76, pos: [0.321, 0.682, 0.407], orientation: []},
 ```
 
-test
-    - node_id x y z parent_id [children_ids]
+Here, each row with ``type="treenode"`` represents one single tree node, providing its necessary attributes such as: *coordinate* and *edge connections*. 
+
+- ``node_id``: The index of this node. It starts from 0.
+- ``pos``: The global 3D position of this node. In our dataset, all the trees are normalized in advance 
 
     - 1. 段落
     - 1.1 段落标题
