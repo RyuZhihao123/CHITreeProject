@@ -37,8 +37,16 @@ ${\color{red}\text{Please see their}}$ **``Acknowledgement section``** ${\color{
 The algorithm works as a parallel rewriting system to recursively expand each symbol into a longer production rule to iteratively form the tree structures.
 We can obtain any number of different tree variants of the same species by adjusting parameters and randomly selecting the production rules per iteration. 
 
-Since the Parametric L-system is a quite complicated algorithm that cannot be briefly summarized in a short manner, please refer to these relevant papers for more details on its mechanism:
-[[XXX et al.]](https://vcc.tech/research/2021/TreePartNet)  [[YYY et al.]](https://vcc.tech/research/2021/TreePartNet) [[ZZZ et al.]](https://vcc.tech/research/2021/TreePartNet) 
+Nowadays, due to the strong capability of parametric L-system, this algorithm has become one of the most popular approach to generate realistic 3D tree models for games or movies. 
+And it has formed a huge algorithm set that contains many variants with unique features.
+
+Since the Parametric L-system is a quite complicated algorithm framework that cannot be briefly summarized in a short manner, and it is not the main focus of our paper, please refer to these relevant papers or articles for more details on its mechanism: 
+[[Wikipedia]](https://en.wikipedia.org/wiki/L-system)
+[[Prusinkiewicz et al. 12]](https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=pjH7e8IAAAAJ&citation_for_view=pjH7e8IAAAAJ:TIZ-Mc8IlK0C) 
+[[Sun et al. 09]](https://www.researchgate.net/publication/216337877_Intelligent_Tree_Modeling_Based_on_L-system) 
+[[Lee et al. 23]](https://dl.acm.org/doi/full/10.1145/3627101?casa_token=VqUTDXPJQSsAAAAA%3A2D6naUDWtbzLoSAaVBqApxomg1W_MQ0gEagUY7c30HFNU8Tiua9iYI1N1RRhpf8E3t7vvF1OsSmE5w)
+[[Prusinkiewicz et al. 96]](http://algorithmicbotany.org/papers/sigcourse.2003/2-1-lsystems.pdf) 
+[[ZZZ et al.]](https://link.springer.com/book/10.1007/978-1-4757-1428-9).
 
 
 ### (b) Format of our synthesized data:
@@ -85,10 +93,11 @@ Note that, our proposed TGP-Net doesn't use these leaf information. But you can 
 
 ## 2. Codes and Software:
 
-**The full source code** will be released after the final official acceptance.
+In current stage, we first mainly shared our dataset [[link]](https://vcc.tech/research/2021/TreePartNet) to provide more information to address some concerns, the entire source codes will be released right after the final acceptance (now is with conditional acceptance).
+
 
 Additionally, now we are also working on a **Online-version software** that enables people from all over the world to freely explore our modeling system at any time. 
-Currently, we are trying to configure our neural network (TGP-Net) to run on a machine with public accessible IP address permanently. Ideally, this online system will be also uploaded to some Software/Game Stores (e.g., Steam or XBox) for free experience, approximately in April (around after UIST's deadline).
+Thus, currently we are trying to configure our neural network (TGP-Net) to run on a machine with public accessible IP address permanently. Ideally, this online system will be also uploaded to some Software/Game Stores (e.g., Steam or XBox) for free experience, approximately in April (around after UIST's deadline).
 
 
 <div align=center>
