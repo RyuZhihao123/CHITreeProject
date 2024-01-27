@@ -98,7 +98,7 @@ In current stage, we first mainly shared our dataset [[link]](https://vcc.tech/r
 
 
 Additionally, now we are also working on a **Online-version software** that enables people from all over the world to freely explore our modeling system at any time. 
-Thus, currently we are trying to configure our neural network (TGP-Net) to **permanently** run on a GPU workstation with public accessible IP address. Ideally, this online system will be also launched on some Online Software/Game Stores (e.g., Steam or XBox) for free experience, approximately in April (basically after UIST's deadline).
+Thus, currently we are trying to configure our neural network (TGP-Net) to **permanently** run on a GPU workstation with public accessible IP address. Ideally, this online system will be also launched on some Online Software/Game Stores (e.g., ``Steam``) for free experience, approximately in April (basically after UIST's deadline).
 
 
 <div align=center>
