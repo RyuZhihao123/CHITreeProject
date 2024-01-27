@@ -82,7 +82,7 @@ The data file also additionally contains the information on leaves.
 The rows with **``type="leaf"``** are all the leaves of this tree, recording the tree node ID which it attraches to, and orientation, etc. 
 Note that, our proposed TGP-Net doesn't use these leaf information. But you can freely use them in your own project if needed. ^_^
 
-    - 
+
 ## 2. Codes and Software:
 
 **The full source code** will be released after the final official acceptance.
