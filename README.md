@@ -87,8 +87,9 @@ Here, each row with **``type="treenode"``** represents one single tree node, rec
 - ``children_ids``: The index of all the children nodes of the current node. It's an array since one tree node may have multiple children nodes.
 
 The data file also additionally contains the information on leaves.
-The rows with **``type="leaf"``** are all the leaves of this tree, recording the tree node ID which it attraches to, and orientation, etc. 
+The rows with **``type="leaf"``** are all the leaves of this tree, recording its orientation and other attributes. 
 Note that, our proposed TGP-Net doesn't use these leaf information. But you can freely use them in your own project if needed. ^_^
+
 
 
 ## 2. Codes and Software:
@@ -97,11 +98,11 @@ In current stage, we first mainly shared our dataset [[link]](https://vcc.tech/r
 
 
 Additionally, now we are also working on a **Online-version software** that enables people from all over the world to freely explore our modeling system at any time. 
-Thus, currently we are trying to configure our neural network (TGP-Net) to run on a machine with public accessible IP address permanently. Ideally, this online system will be also uploaded to some Software/Game Stores (e.g., Steam or XBox) for free experience, approximately in April (around after UIST's deadline).
+Thus, currently we are trying to configure our neural network (TGP-Net) to **permanently** run on a GPU workstation with public accessible IP address. Ideally, this online system will be also launched on some Online Software/Game Stores (e.g., Steam or XBox) for free experience, approximately in April (basically after UIST's deadline).
 
 
 <div align=center>
-<img src="https://github.com/RyuZhihao123/CHI_DeepTreeSketch/blob/main/Figures/2-system.png" width = "700" alt="ack" align=center />
+<img src="https://github.com/RyuZhihao123/CHI_DeepTreeSketch/blob/main/Figures/2-system.png" width = "400" alt="ack" align=center />
 </div>
 
 
