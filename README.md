@@ -5,7 +5,7 @@
 
 This is the official repository of paper "DeepTreeSketch: Neural Graph Prediction for Faithful 3D Tree Modeling from Sketches. [Zhihao Liu](https://ryuzhihao123.github.io/), et al., ACM CHI, 2024".
 
-If interested, you could also check my [homepage](https://ryuzhihao123.github.io/) for my other projects and codes.
+If interested, you could also check my [homepage](https://ryuzhihao123.github.io/) for my other projects and codes. ^_^
 
 In current stage, we first mainly shared our dataset [[link]](https://vcc.tech/research/2021/TreePartNet) to provide more information to address some concerns, the entire source codes will be released right after the final acceptance (now is with conditional acceptance).
 
@@ -29,7 +29,7 @@ ${\color{red}\text{including several recent }}$ **``SIGGRAPH-level``** ${\color{
 ${\color{red}\text{Please see their}}$ **``Acknowledgement section``** ${\color{red}\text{for some proof that their authors borrowed my codes and data in their paper:}}$
 
 <div align=center>
-<img src="https://github.com/RyuZhihao123/CHI_DeepTreeSketch/blob/main/Figures/0-ack.png" width = "800" alt="ack" align=center />
+<img src="https://github.com/RyuZhihao123/CHI_DeepTreeSketch/blob/main/Figures/0-ack.png" width = "700" alt="ack" align=center />
 </div>
 <br/><br/>
 
@@ -37,7 +37,7 @@ ${\color{red}\text{Please see their}}$ **``Acknowledgement section``** ${\color{
 The algorithm works as a parallel rewriting system to recursively expand each symbol into a longer production rule to iteratively form the tree structures.
 We can obtain any number of different tree variants of the same species by adjusting parameters and randomly selecting the production rules per iteration. 
 
-Since the Parametric L-system is a fairly complicated algorithm that cannot be briefly summarized in a short manner, please refer to these relevant papers for more details on its mechanism:
+Since the Parametric L-system is a quite complicated algorithm that cannot be briefly summarized in a short manner, please refer to these relevant papers for more details on its mechanism:
 [[XXX et al.]](https://vcc.tech/research/2021/TreePartNet)  [[YYY et al.]](https://vcc.tech/research/2021/TreePartNet) [[ZZZ et al.]](https://vcc.tech/research/2021/TreePartNet) 
 
 
@@ -47,7 +47,7 @@ In our CHI submission, we synthesized a large tree dataset with 12 different spe
 Here are some examples in our dataset:
 
 <div align=center>
-<img src="https://github.com/RyuZhihao123/CHI_DeepTreeSketch/blob/main/Figures/1-tree-exps-1.png" width = "800" alt="ack" align=center />
+<img src="https://github.com/RyuZhihao123/CHI_DeepTreeSketch/blob/main/Figures/1-tree-exps-1.png" width = "700" alt="ack" align=center />
 </div>
 
 <br/>
@@ -58,28 +58,41 @@ In our dataset, **each ``.skel`` file** records the full branching structure of 
 
 Below is a simple example used to explain the data format:
 ```c
-// Tree nodes:
+// Tree nodes (total count=xyz):
 {type: "treenode", node_id: 0, pos: [0.000, 0.000, 0.000], branch_id: 0, parent_id: -1, children_ids: [1]},
 {type: "treenode", node_id: 1, pos: [0.001, 0.012, 0.002], branch_id: 0, parent_id: 0, children_ids: [2, 3]},
 {type: "treenode", node_id: 2, pos: [-0.004, 0.180, 0.000], branch_id: 0, parent_id: 1, children_ids: [4, ]},
 {type: "treenode", node_id: 3, pos: [-0.023, 0.262, 0.00], branch_id: 0, parent_id: 2, children_ids: [5]},
 {type: "treenode", node_id: 3, pos: [-0.023, 0.262, 0.00], branch_id: 0, parent_id: 2, children_ids: [5]},
 ......
-// Leaves:
+// All the leaves (total count=xyz):
 {type: "leaf", leaf_id: 0, parent_node_id: 72, pos: [0.321, 0.682, 0.407], orientation: []},
 {type: "leaf", leaf_id: 1, parent_node_id: 76, pos: [0.321, 0.682, 0.407], orientation: []},
 ```
 
-Here, each row with ``type="treenode"`` represents one single tree node, providing its necessary attributes such as: *coordinate* and *edge connections*. 
+Here, each row with **``type="treenode"``** represents one single tree node, recording its necessary attributes such as: *coordinate* and *edge connections*. 
 
 - ``node_id``: The index of this node. It starts from 0.
-- ``pos``: The global 3D position of this node. In our dataset, all the trees are normalized in advance 
+- ``pos``: The global 3D position of this node. In our dataset, the height of all the trees are normalized to 1.0 in advance.
+- ``branch_id``: The index of the long branch that this node belongs to. (not used in this project.)
+- ``parent_id``: The index of the parent tree node of the current node.
+- ``children_ids``: The index of all the children nodes of the current node. It's an array since one tree node may have multiple children nodes.
 
-    - 1. 段落
-    - 1.1 段落标题
-    - 1.2 加粗 斜体
+The data file also additionally contains the information on leaves.
+The rows with **``type="leaf"``** are all the leaves of this tree, recording the tree node ID which it attraches to, and orientation, etc. 
+Note that, our proposed TGP-Net doesn't use these leaf information. But you can freely use them in your own project if needed. ^_^
+
     - 
 ## 2. Codes and Software:
 
-We are currently working on a online version software that enables people from all over the world can freely explore our modeling system.
-Ideally, we will publish the system by March (around after ACM UIST's deadline).
+**The full source code** will be released after the final official acceptance.
+
+Additionally, now we are also working on a **Online-version software** that enables people from all over the world to freely explore our modeling system at any time. 
+Currently, we are trying to configure our neural network (TGP-Net) to run on a machine with public accessible IP address permanently. Ideally, this online system will be also uploaded to some Software/Game Stores (e.g., Steam or XBox) for free experience, approximately in April (around after UIST's deadline).
+
+
+<div align=center>
+<img src="https://github.com/RyuZhihao123/CHI_DeepTreeSketch/blob/main/Figures/2-system.png" width = "700" alt="ack" align=center />
+</div>
+
+
