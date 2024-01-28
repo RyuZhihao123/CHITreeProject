@@ -77,8 +77,8 @@ Below is a simple example used to explain the data format:
 {type: "treenode", node_id: 4, pos: [0.034, 0.368, -0.025], parent_id: 2, children_ids: [9, 10, 11], radius: 0.016534, branch_id: 2},
 ......
 // All the leaves (total count=1971):
-{type: "leaf", leaf_id: 0, pos: [0.640, 76.759, 3.288],  orientation: [-0.861, 0.506, 0.040], size_scale: 0.041084},
-{type: "leaf", leaf_id: 1, pos: [-1.202, 78.873, 3.127], orientation: [-0.576, -0.749, -0.325], size_scale: 0.042160},
+{type: "leaf", leaf_id: 0, pos: [-0.269, 0.894, 0.244],  orientation: [-0.861, 0.506, 0.040], size_scale: 0.041084},
+{type: "leaf", leaf_id: 1, pos: [-0.030, 0.686, -0.012], orientation: [-0.576, -0.749, -0.325], size_scale: 0.042160},
 ```
 
 Here, each row with **``type="treenode"``** represents one single tree node, recording its necessary attributes such as: *coordinate* and *edge connections*. 
