@@ -15,8 +15,9 @@ In the very beginning, we implemented a very comprehensive **Parametric l-system
 This algorithm contributes the majority (approx. 90%) of our training set, while the rest are the real-world trees reconstructed from point clouds and images.
 
 **Dataset Link:** Please download our dataset of tree skeletons through this [[link]](https://univtokyo-my.sharepoint.com/:u:/g/personal/1487479010_utac_u-tokyo_ac_jp/EXxMckY_swpKki4lL1SDF1oBxSRE5lbsPm8c2TBMLY9iOw?e=tax0a6).
+<br/>
 
-### (a) Basic information on our L-system algorithm:
+### (a) Basic information about our L-system algorithm:
 
 **$\bullet$** ${\color{red}\text{\normalsize \textbf{Note that}, apart from our CHI submission, }}$ **``my implemented algorithm``**${\color{red}\text{ has been also used}}$ ${\color{red}\text{by a few Top-tier papers}}$ ${\color{red}\text{to generate the training dataset of 3D trees, }}$
 ${\color{red}\text{including several recent }}$ **``SIGGRAPH-level``** ${\color{red}\text{papers. For example:}}$
@@ -49,7 +50,7 @@ Since the Parametric L-system is a quite complicated algorithm framework that ca
 [[ZZZ et al.]](https://link.springer.com/book/10.1007/978-1-4757-1428-9).
 
 
-### (b) Format of our synthesized data:
+### (b) How to use our synthesized data:
 
 In our CHI submission, we synthesized a large tree dataset with 12 different species in total. 
 Here are some examples in our dataset:
@@ -66,29 +67,33 @@ In our dataset, **each ``.skel`` file** records the full branching structure of 
 
 Below is a simple example used to explain the data format:
 ```c
-// Tree nodes (total count=xyz):
-{type: "treenode", node_id: 0, pos: [0.000, 0.000, 0.000], branch_id: 0, parent_id: -1, children_ids: [1]},
-{type: "treenode", node_id: 1, pos: [0.001, 0.012, 0.002], branch_id: 0, parent_id: 0, children_ids: [2, 3]},
-{type: "treenode", node_id: 2, pos: [-0.004, 0.180, 0.000], branch_id: 0, parent_id: 1, children_ids: [4, ]},
-{type: "treenode", node_id: 3, pos: [-0.023, 0.262, 0.00], branch_id: 0, parent_id: 2, children_ids: [5]},
-{type: "treenode", node_id: 3, pos: [-0.023, 0.262, 0.00], branch_id: 0, parent_id: 2, children_ids: [5]},
+{type="header", name="tree_0001.skel", species_id = 6, treenode_num = 1234, leaf_num = 1971},
+
+// Tree nodes (total count=1234):
+{type: "treenode", node_id: 0, pos: [0.000, 0.000, 0.000],  parent_id: -1, children_ids: [1], radius: 0.027861, branch_id: 0 },
+{type: "treenode", node_id: 1, pos: [0.000, 0.148, 0.000],  parent_id: 0, children_ids: [2, 3], radius: 0.025100, branch_id: 0 },
+{type: "treenode", node_id: 2, pos: [-0.004, 0.278, 0.002], parent_id: 1, children_ids: [4, 5, 6], radius: 0.020372, branch_id: 0 },
+{type: "treenode", node_id: 3, pos: [-0.002, 0.407, 0.012], parent_id: 2, children_ids: [7, 8], radius: 0.018353, branch_id: 1 },
+{type: "treenode", node_id: 4, pos: [0.034, 0.368, -0.025], parent_id: 2, children_ids: [9, 10, 11], radius: 0.016534, branch_id: 2 },
 ......
-// All the leaves (total count=xyz):
-{type: "leaf", leaf_id: 0, parent_node_id: 72, pos: [0.321, 0.682, 0.407], orientation: []},
-{type: "leaf", leaf_id: 1, parent_node_id: 76, pos: [0.321, 0.682, 0.407], orientation: []},
+// All the leaves (total count=1971):
+{type: "leaf", leaf_id: 0, pos: [0.640, 76.759, 3.288],  orientation: [-0.529, 0.565, 0.119], size_scale: 5.537 },
+{type: "leaf", leaf_id: 1, pos: [-1.202, 78.873, 3.127], orientation: [0.015, 0.547, -0.472], size_scale: 6.219 },
 ```
 
 Here, each row with **``type="treenode"``** represents one single tree node, recording its necessary attributes such as: *coordinate* and *edge connections*. 
 
 - ``node_id``: The index of this node. It starts from 0.
 - ``pos``: The global 3D position of this node. In our dataset, the height of all the trees are normalized to 1.0 in advance.
-- ``branch_id``: The index of the long branch that this node belongs to. (not used in this project.)
 - ``parent_id``: The index of the parent tree node of the current node.
 - ``children_ids``: The index of all the children nodes of the current node. It's an array since one tree node may have multiple children nodes.
+- ``radius``: The branch radius at this node.
+- ``branch_id``: The index of the long branch that this node belongs to. (not used in this project.)
+
 
 The data file also additionally contains the information on leaves.
 The rows with **``type="leaf"``** are all the leaves of this tree, recording its orientation and other attributes. 
-Note that, our proposed TGP-Net doesn't use these leaf information. But you can freely use them in your own project if needed. ^_^
+Note that, our proposed TGP-Net doesn't use these leaf information in practice. But you can freely use them in your own project if needed. ^_^
 
 
 
