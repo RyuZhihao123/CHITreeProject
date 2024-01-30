@@ -41,7 +41,7 @@ We can obtain any number of different tree variants of the same species by adjus
 Nowadays, due to the strong capability of parametric L-system, this algorithm has become one of the most popular approach to generate realistic 3D tree models for games or movies. 
 And it has formed a huge algorithm set that contains many variants with unique features.
 
-Since the Parametric L-system is a quite complicated algorithm framework that cannot be briefly summarized in a short manner, and it is not the main focus of our paper, please refer to these relevant papers or articles for more details on its mechanism: 
+Considering that the Parametric L-system is not the main focus of our paper, and is a quite complicated algorithm framework that cannot be briefly summarized in a short manner, please refer to these relevant papers or articles for more details on its mechanism: 
 [[Wikipedia]](https://en.wikipedia.org/wiki/L-system)
 [[Prusinkiewicz et al. 12]](https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=pjH7e8IAAAAJ&citation_for_view=pjH7e8IAAAAJ:TIZ-Mc8IlK0C) 
 [[Sun et al. 09]](https://www.researchgate.net/publication/216337877_Intelligent_Tree_Modeling_Based_on_L-system) 
@@ -50,7 +50,7 @@ Since the Parametric L-system is a quite complicated algorithm framework that ca
 [[ZZZ et al.]](https://link.springer.com/book/10.1007/978-1-4757-1428-9).
 
 
-### (b) How to use our synthesized data:
+### (b) How to use our synthesized dataset:
 
 In our CHI submission, we synthesized a large tree dataset with 12 different species in total. 
 Here are some examples in our dataset:
@@ -81,17 +81,19 @@ Below is a simple example used to explain the data format:
 {type: "leaf", leaf_id: 1, pos: [-0.030, 0.686, -0.012], orientation: [-0.576, -0.749, -0.325], size_scale: 0.042160},
 ```
 
-Here, each row with **``type="treenode"``** represents one single tree node, recording its necessary attributes such as: *coordinate* and *edge connections*. 
+- The first row with **``type="treenode"``** summarizes the overall information of this tree sample, such as, its species and the number of tree nodes, etc.
 
-- ``node_id``: The index of this node. It starts from 0.
-- ``pos``: The global 3D position of this node. In our dataset, the height of all the trees are normalized to 1.0 in advance.
-- ``parent_id``: The index of the parent tree node of the current node.
-- ``children_ids``: The index of all the children nodes of the current node. It's an array since one tree node may have multiple children nodes.
-- ``radius``: The branch radius at this node.
-- ``branch_id``: The index of the long branch that this node belongs to. (not used in this project.)
+- Each row with **``type="treenode"``** represents one single tree node, recording its necessary attributes such as: *coordinate* and *edge connections*. 
+
+    - ``node_id``: The index of this node. It starts from 0.
+    - ``pos``: The global 3D position of this node. In our dataset, the height of all the trees are normalized to 1.0 in advance.
+    - ``parent_id``: The index of the parent tree node of the current node.
+    - ``children_ids``: The index of all the children nodes of the current node. It's an array since one tree node may have multiple children nodes.
+    - ``radius``: The branch radius at this node.
+    - ``branch_id``: The index of the long branch that this node belongs to. (not used in this project.)
 
 
-The data file also additionally contains the information on leaves.
+- The data file also additionally contains the information on leaves.
 The rows with **``type="leaf"``** are all the leaves of this tree, recording its orientation and other attributes. 
 Note that, our proposed TGP-Net doesn't use these leaf information in practice. But you can freely use them in your own project if needed. ^_^
 
