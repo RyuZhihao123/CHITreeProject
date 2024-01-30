@@ -102,8 +102,8 @@ Note that, our proposed TGP-Net doesn't use these leaf information in practice. 
 In current stage, we first mainly shared our dataset [[link]](https://univtokyo-my.sharepoint.com/:u:/g/personal/1487479010_utac_u-tokyo_ac_jp/EYiD43XXotlCs1sLEurBeIUBJj9JuV0tpCsxn-8xVDx9-w?e=W4yPSD) to provide more information to address some concerns, the entire source codes will be released right after the final acceptance (now is with conditional acceptance).
 
 
-Additionally, now we are also working on a **Online-version software** that enables people from all over the world to freely explore our modeling system at any time. 
-Thus, currently we are trying to configure our neural network (TGP-Net) to **permanently** run on a GPU workstation with public accessible IP address. Ideally, this online system will be also launched on some Online Software/Game Stores (e.g., ``Steam``) for free experience, approximately in April (basically after UIST's deadline).
+Additionally, as a bonus, we are now working on a **Online-version software** (Web version using Javascript + WebGL) as well, which will enable people from all over the world to freely explore our modeling system at any time. 
+Thus, we are currently trying to configure our neural network (TGP-Net) to **permanently** run on a GPU workstation with public accessible IP address. Ideally, this online system will be also launched approximately in April (basically after UIST's deadline).
 
 
 <div align=center>
