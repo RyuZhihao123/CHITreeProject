@@ -7,14 +7,14 @@ This is the official repository of paper "DeepTreeSketch: Neural Graph Predictio
 
 If interested, you could also check my [homepage](https://ryuzhihao123.github.io/) for my other projects and codes. ^_^
 
-In current stage, we first mainly shared our **dataset** [[download link]](https://univtokyo-my.sharepoint.com/:u:/g/personal/1487479010_utac_u-tokyo_ac_jp/EYiD43XXotlCs1sLEurBeIUBJj9JuV0tpCsxn-8xVDx9-w?e=W4yPSD) to provide more information to address some concerns, the entire **source codes** will be released right after the final acceptance (now is with conditional acceptance).
+In current stage, we first mainly shared our **dataset** [[download link]](https://github.com/RyuZhihao123/CHI_DeepTreeSketch/) to provide more information to address some concerns, the entire **source codes** will be released right after the final acceptance (now is with conditional acceptance).
 
 
 ## 1. Tree Dataset
 In the very beginning, we implemented a very comprehensive **Parametric l-system algorithm** for creating diverse high-quality 3D tree models automatically as the training dataset. 
 This algorithm contributes the majority (approx. 90%) of our training set, while the rest are the real-world trees reconstructed from point clouds and images.
 
-**$\bullet$** **Dataset Link:** Please download our dataset of tree skeletons through this [[download link]](https://univtokyo-my.sharepoint.com/:u:/g/personal/1487479010_utac_u-tokyo_ac_jp/EYiD43XXotlCs1sLEurBeIUBJj9JuV0tpCsxn-8xVDx9-w?e=W4yPSD).
+**$\bullet$** **Dataset Link:** Please download our dataset of tree skeletons through this [[download link]](https://github.com/RyuZhihao123/CHI_DeepTreeSketch/).
 
 
 ### (a) Basic information about our L-system algorithm:
@@ -106,7 +106,7 @@ Note that, our proposed TGP-Net doesn't use these leaf information in practice. 
 
 ## 2. Codes and Software:
 
-In current stage, we first mainly shared our dataset [[link]](https://univtokyo-my.sharepoint.com/:u:/g/personal/1487479010_utac_u-tokyo_ac_jp/EYiD43XXotlCs1sLEurBeIUBJj9JuV0tpCsxn-8xVDx9-w?e=W4yPSD) to provide more information to address some concerns, the entire source codes will be released right after the final acceptance (now is with conditional acceptance).
+In current stage, we first mainly shared our dataset [[link]](https://github.com/RyuZhihao123/CHI_DeepTreeSketch/) to provide more information to address some concerns, the entire source codes will be released right after the final acceptance (now is with conditional acceptance).
 
 
 Additionally, as a bonus, we are now working on a **Online-version software** (Web version using Javascript + WebGL) as well, which will enable people from all over the world to freely explore our modeling system at any time. 
