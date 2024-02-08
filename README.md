@@ -7,7 +7,7 @@ This is the official repository of paper "DeepTreeSketch: Neural Graph Predictio
 
 If interested, welcome to check my [homepage](https://ryuzhihao123.github.io/) for my other projects and codes. ^_^
 
-In current stage, **we first mainly shared our dataset [[download link]](https://github.com/RyuZhihao123/CHI_DeepTreeSketch/) to provide more information to address some concerns**, the entire source codes will also be released after the final official acceptance.
+In current stage, **we first mainly shared our dataset [[download link]](https://github.com/RyuZhihao123/CHI_DeepTreeSketch/) to provide more information to address some concerns of reviewers**. The entire **source codes** will be also released after the final official acceptance.
 
 
 ## 1. Tree Dataset
