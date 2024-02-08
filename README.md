@@ -7,7 +7,7 @@ This is the official repository of paper "DeepTreeSketch: Neural Graph Predictio
 
 If interested, you could also check my [homepage](https://ryuzhihao123.github.io/) for my other projects and codes. ^_^
 
-In current stage, we first mainly shared our **dataset** [[download link]](https://github.com/RyuZhihao123/CHI_DeepTreeSketch/) to provide more information to address some concerns, the entire **source codes** will be released right after the final acceptance (now is with conditional acceptance).
+In current stage, **we first mainly shared our dataset** [[download link]](https://github.com/RyuZhihao123/CHI_DeepTreeSketch/) to provide more information to address some concerns, the entire **source codes** will be released right after some cleaning-ups and final official acceptance.
 
 
 ## 1. Tree Dataset
@@ -106,7 +106,7 @@ Note that, our proposed TGP-Net doesn't use these leaf information in practice. 
 
 ## 2. Codes and Software:
 
-In current stage, we first mainly shared our dataset [[link]](https://github.com/RyuZhihao123/CHI_DeepTreeSketch/) to provide more information to address some concerns, the entire source codes will be released right after the final acceptance (now is with conditional acceptance).
+In current stage, we first mainly shared our dataset [[link]](https://github.com/RyuZhihao123/CHI_DeepTreeSketch/) to provide more information to address some concerns, the entire source codes will be released right after some cleaning ups and the final official acceptance.
 
 
 Additionally, as a bonus, we are now working on a **Online-version software** (Web version using Javascript + WebGL) as well, which will enable people from all over the world to freely explore our modeling system at any time. 
