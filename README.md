@@ -7,7 +7,7 @@ This is the official repository of paper "DeepTreeSketch: Neural Graph Predictio
 
 If interested, you could also check my [homepage](https://ryuzhihao123.github.io/) for my other projects and codes. ^_^
 
-In current stage, **we first mainly shared our dataset [[download link]](https://github.com/RyuZhihao123/CHI_DeepTreeSketch/) to provide more information to address some concerns**, the entire **source codes** will be released right after some cleaning-ups and final official acceptance.
+In current stage, **we first mainly shared our dataset [[download link]](https://github.com/RyuZhihao123/CHI_DeepTreeSketch/) to provide more information to address some concerns**, the entire **source codes** will also be released after the final official acceptance.
 
 
 ## 1. Tree Dataset
@@ -19,7 +19,8 @@ This algorithm contributes the majority (approx. 90%) of our training set, while
 
 ### (a) Basic information about our L-system algorithm:
 
-<ins>Note that, apart from our CHI submission, ***my implemented algorithm*** has also been used by several top-tier ***SIGGRAPH-level papers***</ins> to help generate the training dataset of 3D trees. For example: 
+<ins>Note that, apart from our CHI submission, **my implemented algorithm** has also been used by several top-tier **SIGGRAPH-level papers**</ins> to help generate the training dataset of 3D trees. For example: 
+
 
 <!--
 **$\bullet$** ${\color{magenta}\text{\normalsize \textbf{Note that}, apart from our CHI submission, }}$ **``my implemented algorithm``**${\color{magenta}\text{ has been also used}}$ ${\color{magenta}\text{by a few Top-tier papers}}$ ${\color{magenta}\text{to generate the training dataset of 3D trees, }}$
@@ -36,6 +37,7 @@ ${\color{magenta}\text{Please see their}}$ **``Acknowledgement section``** ${\co
 <div align=center>
 <img src="https://github.com/RyuZhihao123/CHI_DeepTreeSketch/blob/main/Figures/0-ack.png" width = "700" alt="ack" title="dasdasdsa title" align=center />
 <br/><center><b>Fig. 1. Several SIGGRAPH-level papers also borrowed my tree modeling algorithm to synthesize 3D tree dataset, due to the strong capability of my implementation.</b></center>
+<br/><center><b>图1. 除了我们的CHI的提交之外，我们实现的Parametric L-system算法也被多篇SIGGRAPH等级的顶级论文所借用，以生成他们所需的3D树木数据集。请参考他们的Acknowledgement章节可以获知这一事情。</b></center>
 </div>
 <br/>
 
@@ -106,7 +108,7 @@ Note that, our proposed TGP-Net doesn't use these leaf information in practice. 
 
 ## 2. Codes and Software:
 
-In current stage, we first mainly shared our dataset [[link]](https://github.com/RyuZhihao123/CHI_DeepTreeSketch/) to provide more information to address some concerns, the entire source codes will be released right after some cleaning ups and the final official acceptance.
+In current stage, we first mainly shared our dataset [[link]](https://github.com/RyuZhihao123/CHI_DeepTreeSketch/) to provide more information to address some concerns, the entire source codes will be released right after the final official acceptance.
 
 
 Additionally, as a bonus, we are now working on a **Online-version software** (Web version using Javascript + WebGL) as well, which will enable people from all over the world to freely explore our modeling system at any time. 
