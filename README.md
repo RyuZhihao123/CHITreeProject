@@ -19,7 +19,7 @@ This algorithm contributes the majority (approx. 90%) of our training set, while
 
 ### (a) Basic information about our L-system algorithm:
 
-**$\bullet$** **Note that, apart from our CHI submission, ``my implemented algorithm`` has also been used by several top-tier ``SIGGRAPH-level papers``** to help generate the training dataset of 3D trees. For example: 
+**$\bullet$** **Note that, apart from our CHI submission, ``my implemented algorithm`` has also been used by several top-tier ``SIGGRAPH-level`` papers** to help generate the training dataset of 3D trees. For example: 
 
 <!--
 **$\bullet$** ${\color{magenta}\text{\normalsize \textbf{Note that}, apart from our CHI submission, }}$ **``my implemented algorithm``**${\color{magenta}\text{ has been also used}}$ ${\color{magenta}\text{by a few Top-tier papers}}$ ${\color{magenta}\text{to generate the training dataset of 3D trees, }}$
