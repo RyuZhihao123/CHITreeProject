@@ -36,7 +36,7 @@ ${\color{magenta}\text{Please see their}}$ **``Acknowledgement section``** ${\co
 
 <div align=center>
 <img src="https://github.com/RyuZhihao123/CHI_DeepTreeSketch/blob/main/Figures/0-ack.png" width = "700" alt="ack" title="dasdasdsa title" align=center />
-<br/><center><b>Fig. 1. Several SIGGRAPH-level papers also borrowed my tree modeling algorithm to synthesize 3D tree dataset, due to the strong capability of my implementation.</b></center>
+<br/><center><b>Fig. 1. Several SIGGRAPH-level papers also borrowed my tree modeling algorithm to synthesize 3D tree dataset, due to the strong capability of my implementated system.</b></center>
 <br/><center><b>图1. 除了我们的CHI的提交之外，我们实现的Parametric L-system算法也被多篇SIGGRAPH等级的顶级论文所借用，以生成他们所需的3D树木数据集。请参考他们的Acknowledgement章节可以获知这一事情。</b></center>
 </div>
 <br/>
