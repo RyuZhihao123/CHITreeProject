@@ -49,13 +49,13 @@ Nowadays, due to the strong capability of parametric L-system, this algorithm ha
 And it has formed a huge algorithm set that contains many variants with unique features.
 
 Considering that the Parametric L-system is not the main focus of our paper, and is a quite complicated algorithm framework that cannot be briefly summarized in a short manner, please refer to these relevant papers or articles for more details on its mechanism: 
-[[Wikipedia]](https://en.wikipedia.org/wiki/L-system)
+[[Wikipedia: L-system]](https://en.wikipedia.org/wiki/L-system)
+[[A Tutorial Video on YouTube]](https://www.youtube.com/watch?v=ps7Mt1y1F48)
 [[Prusinkiewicz et al. 96]](http://algorithmicbotany.org/papers/sigcourse.2003/2-1-lsystems.pdf) 
 [[Sun et al. 09]](https://www.researchgate.net/publication/216337877_Intelligent_Tree_Modeling_Based_on_L-system) 
 [[Lee et al. 23]](https://dl.acm.org/doi/full/10.1145/3627101?casa_token=VqUTDXPJQSsAAAAA%3A2D6naUDWtbzLoSAaVBqApxomg1W_MQ0gEagUY7c30HFNU8Tiua9iYI1N1RRhpf8E3t7vvF1OsSmE5w)
 [[Prusinkiewicz et al. 12]](https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=pjH7e8IAAAAJ&citation_for_view=pjH7e8IAAAAJ:TIZ-Mc8IlK0C) 
-[[ZZZ et al.]](https://link.springer.com/book/10.1007/978-1-4757-1428-9).
-
+.
 
 ### (b) How to properly use our synthesized dataset:
 
