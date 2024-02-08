@@ -88,7 +88,7 @@ Since our proposed neural network (TGP-Net) is designed to process the tree skel
 {type: "leaf", leaf_id: 1, pos: [-0.030, 0.686, -0.012], orientation: [-0.576, -0.749, -0.325], size_scale: 0.042160},
 ```
 
-- The first row with **``type="treenode"``** summarizes the overall information of this tree sample, such as, its species and the number of tree nodes, etc.
+- The first row with **``type="header"``** summarizes the overall information of this tree sample, such as, its species and the number of tree nodes, etc.
 
 - Each row with **``type="treenode"``** represents one single tree node, recording its necessary attributes such as: *coordinate* and *edge connections*. 
 
