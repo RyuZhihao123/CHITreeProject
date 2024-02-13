@@ -10,14 +10,14 @@ If interested, welcome to visit my **[homepage](https://ryuzhihao123.github.io/)
 In current stage, **we first mainly shared our dataset [[download link]](https://github.com/RyuZhihao123/CHI_DeepTreeSketch/) to provide more information to address some concerns of reviewers**. The entire **source codes** will be also released after the final official acceptance.
 
 
-## 1. Tree Dataset
+# 1. Tree Dataset
 In the very beginning, we implemented a very comprehensive **Parametric l-system algorithm** for creating diverse high-quality 3D tree models automatically as the training dataset. 
 This algorithm contributes the majority (approx. 90%) of our training set, while the rest are the real-world trees reconstructed from point clouds and images.
 
 **$\bullet$** **Dataset Link:** Please download our dataset of tree skeletons through this [[download link]](https://github.com/RyuZhihao123/CHI_DeepTreeSketch/).
 
 
-### (a) Basic information about our L-system algorithm:
+## (a) Basic information about our L-system algorithm:
 
 <ins>Note that, apart from our CHI submission, **my implemented algorithm** has also been used by several top-tier **SIGGRAPH-level papers**</ins> to help generate the training dataset of 3D trees. For example: 
 
@@ -57,7 +57,7 @@ Considering that the Parametric L-system is not the main focus of our paper, and
 [[Prusinkiewicz et al. 12]](https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=pjH7e8IAAAAJ&citation_for_view=pjH7e8IAAAAJ:TIZ-Mc8IlK0C) 
 .
 
-### (b) How to properly use our synthesized dataset:
+## (b) How to properly use our synthesized dataset:
 
 In our CHI submission, we synthesized a large tree dataset with 12 different species in total. 
 Here are some examples in our dataset:
@@ -106,7 +106,7 @@ Note that, our proposed TGP-Net doesn't use these leaf information in practice. 
 
 
 
-## 2. Codes and Software:
+# 2. Codes and Software:
 
 In current stage, we first mainly shared our dataset [[link]](https://github.com/RyuZhihao123/CHI_DeepTreeSketch/) to provide more information to address some concerns, the entire source codes will be released right after the final official acceptance.
 
