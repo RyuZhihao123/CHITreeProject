@@ -57,7 +57,7 @@ Considering that the Parametric L-system is not the main focus of our paper, and
 
 ## (b) How to properly use our synthesized dataset:
 
-In our CHI submission, we synthesized a large tree dataset with 12 different species in total. 
+In our CHI submission, we synthesized a large tree dataset with various different species. 
 Here are some examples in our dataset:
 
 <div align=center>
