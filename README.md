@@ -61,7 +61,7 @@ In our CHI submission, we synthesized a large tree dataset with 12 different spe
 Here are some examples in our dataset:
 
 <div align=center>
-<img src="https://github.com/RyuZhihao123/CHI24_TreeProject/blob/main/1-tree-exps-1.png" width = "600" alt="ack" align=center />
+<img src="https://github.com/RyuZhihao123/CHI24_TreeProject/blob/main/1-tree-exps-1.png" width = "500" alt="ack" align=center />
 </div>
 
 <br/>
