@@ -19,7 +19,7 @@ This algorithm contributes the majority (approx. 90%) of our training set, while
 
 ## (a) Basic information about our L-system algorithm:
 
-:hearts: Note that, apart from our CHI submission, <ins>**My Implemented Algorithm** has also been used by several top-tier **SIGGRAPH-level Papers**</ins> to help generate the training dataset of 3D trees. For example: 
+:hearts: Note that, apart from our CHI submission, <ins>**My Implemented Algorithm** has also been used by several top-tier **SIGGRAPH-level Papers**</ins> to help them generate the training dataset of 3D trees. For example: 
 
 
 
