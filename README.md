@@ -19,24 +19,23 @@ This algorithm contributes the majority (approx. 90%) of our training set, while
 
 ## (a) Basic information about our L-system algorithm:
 
-<ins>Note that, apart from our CHI submission, **my implemented algorithm** has also been used by several top-tier **SIGGRAPH-level papers**</ins> to help generate the training dataset of 3D trees. For example: 
+:hearts: Note that, apart from our CHI submission, <ins>**My Implemented Algorithm** has also been used by several top-tier **SIGGRAPH-level Papers**</ins> to help generate the training dataset of 3D trees. For example: 
 
 
-<!--
-**$\bullet$** ${\color{magenta}\text{\normalsize \textbf{Note that}, apart from our CHI submission, }}$ **``my implemented algorithm``**${\color{magenta}\text{ has been also used}}$ ${\color{magenta}\text{by a few Top-tier papers}}$ ${\color{magenta}\text{to generate the training dataset of 3D trees, }}$
-${\color{magenta}\text{including several recent }}$**``SIGGRAPH-level``** ${\color{magenta}\text{papers. For example:}}$
--->
+
 
 
 > **TreePartNet: Neural Decomposition of Point Clouds for 3D Tree Reconstruction.**
 >
 > **SIGGRAPH Asia 2021** (ACM Transactions on Graphics). [[Paper]](https://dl.acm.org/doi/abs/10.1145/3478513.3480486) 
 
-${\color{magenta}\text{Please see their}}$ **``Acknowledgement section``** ${\color{magenta}\text{for some proof that their authors used my codes or data in their paper:}}$
+Please see their **``Acknowledgement section``** below for some proof that their authors used my codes to get training data for their paper:
+<!--${\color{red}\text{Please see their}}$ **``Acknowledgement section``** ${\color{red}\text{for some proof that their authors used my codes or data in their paper:}}$-->
 
 <div align=center>
 <img src="https://github.com/RyuZhihao123/CHI_DeepTreeSketch/blob/main/Figures/0-ack.png" width = "700" alt="ack" title="dasdasdsa title" align=center />
-<br/><center><b>Fig. 1. Several SIGGRAPH-level papers also borrowed my tree modeling algorithm to synthesize 3D tree dataset, due to the strong capability of my implementated system.</b></center>
+
+<br/><center><b>Fig. 1. Several SIGGRAPH-level papers also borrowed my tree modeling algorithm to synthesize the 3D tree dataset, because of the strong capability of my implementated system.</b></center>
 <br/><center><b>图1. 除了我们的CHI的提交之外，我们实现的Parametric L-system算法也被多篇SIGGRAPH等级的顶级论文所借用，以生成他们所需的3D树木数据集。请参考他们的Acknowledgement章节可以获知这一事情。</b></center>
 </div>
 <br/>
@@ -105,6 +104,7 @@ The rows with **``type="leaf"``** are all the leaves of this tree, recording its
 Note that, our proposed TGP-Net doesn't use these leaf information in practice. But you can freely use them in your own project if needed. ^_^
 
 
+:diamonds: Please feel free to use my dataset in your work as long as you have indicated my name or cited this paper.
 
 # 2. Codes and Software:
 
