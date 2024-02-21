@@ -72,16 +72,16 @@ Since our proposed neural network (TGP-Net) is designed to process the tree skel
 
      Below, we use a simple example to explain the data format in detail:
 ```c
-{type="header", name="tree_0001.skel", species_id = 6, treenode_num = 1234, leaf_num = 1971},
+{type="header", name="tree_0001.skel", species_id = 6, treenode_num = 867, leaf_num = 2971},
 
-// Tree nodes (total count=1234):
+// Tree nodes (total count=867):
 {type: "treenode", node_id: 0, pos: [0.000, 0.000, 0.000],  parent_id: -1, children_ids: [1], radius: 0.027861, branch_id: 0},
 {type: "treenode", node_id: 1, pos: [0.000, 0.148, 0.000],  parent_id: 0, children_ids: [2, 3], radius: 0.025100, branch_id: 0},
 {type: "treenode", node_id: 2, pos: [-0.004, 0.278, 0.002], parent_id: 1, children_ids: [4, 5, 6], radius: 0.020372, branch_id: 0},
 {type: "treenode", node_id: 3, pos: [-0.002, 0.407, 0.012], parent_id: 2, children_ids: [7, 8], radius: 0.018353, branch_id: 1},
 {type: "treenode", node_id: 4, pos: [0.034, 0.368, -0.025], parent_id: 2, children_ids: [9, 10, 11], radius: 0.016534, branch_id: 2},
 ......
-// All the leaves (total count=1971):
+// All the leaves (total count=2971):
 {type: "leaf", leaf_id: 0, pos: [-0.269, 0.894, 0.244],  orientation: [-0.861, 0.506, 0.040], size_scale: 0.041084},
 {type: "leaf", leaf_id: 1, pos: [-0.030, 0.686, -0.012], orientation: [-0.576, -0.749, -0.325], size_scale: 0.042160},
 ```
