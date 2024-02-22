@@ -70,6 +70,8 @@ Considering that the Parametric L-system is not the main focus of our paper, and
 <img src="https://github.com/RyuZhihao123/CHITreeProject/blob/main/TreeDatasetGenerator/dataset_generator.png" width = "430" alt="ack" align=center />
 </div>
 
+- If you encounter any issues on using my dataset, please feel free to contact me at any time.
+<br/>
 
 ## (c) How to properly use our synthesized dataset.
 
