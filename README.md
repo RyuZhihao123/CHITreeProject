@@ -77,7 +77,7 @@ Considering that the Parametric L-system is not the main focus of our paper, and
 - If you encounter any issues on using my dataset, please feel free to contact me at any time.
 <br/>
 
-## (c) How to properly use our synthesized dataset.
+## (c) How to use our synthesized dataset.
 
 In our CHI submission, we synthesized a large tree dataset with various different species. 
 Here are some examples in our dataset:
