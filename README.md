@@ -14,10 +14,10 @@ In current stage, **we first mainly shared our dataset [[download link]](https:/
 In the very beginning, we implemented a comprehensive **Parametric l-system algorithm** for creating diverse high-quality 3D tree models automatically as the training dataset. 
 This algorithm contributes the majority of our training set, while the rest are the real-world trees reconstructed from point clouds and images.
 
-**$\bullet$** **Dataset Link:** Please download our dataset of tree skeletons through this [[download link]](https://univtokyo-my.sharepoint.com/:u:/g/personal/1487479010_utac_u-tokyo_ac_jp/EYL59bp6A2hMsjYFnHeDZaUBVow5KimE9KsTjwQfsSPMGw?e=LUjHsy).
+:hearts: **Dataset Link:** Please download our dataset of tree skeletons through this [[download link]](https://univtokyo-my.sharepoint.com/:u:/g/personal/1487479010_utac_u-tokyo_ac_jp/EYL59bp6A2hMsjYFnHeDZaUBVow5KimE9KsTjwQfsSPMGw?e=LUjHsy).
 
 
-## (a) Basic information about our L-system algorithm:
+## (a) Basic information about our L-system algorithm.
 
 :hearts: Note that, apart from our CHI submission, <ins>**My Implemented Algorithm** has also been used by several top-tier **SIGGRAPH-level Papers**</ins> to help them generate the training dataset of 3D trees. For example: 
 
@@ -53,9 +53,21 @@ Considering that the Parametric L-system is not the main focus of our paper, and
 [[Sun et al. 09]](https://www.researchgate.net/publication/216337877_Intelligent_Tree_Modeling_Based_on_L-system) 
 [[Lee et al. 23]](https://dl.acm.org/doi/full/10.1145/3627101?casa_token=VqUTDXPJQSsAAAAA%3A2D6naUDWtbzLoSAaVBqApxomg1W_MQ0gEagUY7c30HFNU8Tiua9iYI1N1RRhpf8E3t7vvF1OsSmE5w)
 [[Prusinkiewicz et al. 12]](https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=pjH7e8IAAAAJ&citation_for_view=pjH7e8IAAAAJ:TIZ-Mc8IlK0C) 
-.
 
-## (b) How to properly use our synthesized dataset:
+## (b) My software: Tree Dataset Generator.
+
+:hearts: We also provided **the software** that I developed for automatically generating the tree models. 
+
+- **Link:** Please download this tool (a light-weight version) under this **[folder](https://github.com/RyuZhihao123/CHITreeProject/tree/main/TreeDatasetGenerator)**.
+
+- **Usage:** Double click ``Tree_Dataset_Generator.exe`` to run this problem. You can re-generate a new tree by pressing the button ``Get New Tree``. Also you can choose the tree species through the ComboBox (droplist).
+
+<div align=center>
+<img src="https://github.com/RyuZhihao123/CHITreeProject/blob/main/TreeDatasetGenerator/dataset_generator.png" width = "500" alt="ack" align=center />
+</div>
+
+
+## (c) How to properly use our synthesized dataset.
 
 In our CHI submission, we synthesized a large tree dataset with various different species. 
 Here are some examples in our dataset:
