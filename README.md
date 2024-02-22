@@ -53,6 +53,7 @@ Considering that the Parametric L-system is not the main focus of our paper, and
 [[Sun et al. 09]](https://www.researchgate.net/publication/216337877_Intelligent_Tree_Modeling_Based_on_L-system) 
 [[Lee et al. 23]](https://dl.acm.org/doi/full/10.1145/3627101?casa_token=VqUTDXPJQSsAAAAA%3A2D6naUDWtbzLoSAaVBqApxomg1W_MQ0gEagUY7c30HFNU8Tiua9iYI1N1RRhpf8E3t7vvF1OsSmE5w)
 [[Prusinkiewicz et al. 12]](https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=pjH7e8IAAAAJ&citation_for_view=pjH7e8IAAAAJ:TIZ-Mc8IlK0C) 
+<br/>
 
 ## (b) My software: Tree Dataset Generator.
 
@@ -63,7 +64,7 @@ Considering that the Parametric L-system is not the main focus of our paper, and
 - **Usage:** Double click ``Tree_Dataset_Generator.exe`` to run this problem. You can re-generate a new tree by pressing the button ``Get New Tree``. Also you can choose the tree species through the ComboBox (droplist).
 
 <div align=center>
-<img src="https://github.com/RyuZhihao123/CHITreeProject/blob/main/TreeDatasetGenerator/dataset_generator.png" width = "500" alt="ack" align=center />
+<img src="https://github.com/RyuZhihao123/CHITreeProject/blob/main/TreeDatasetGenerator/dataset_generator.png" width = "430" alt="ack" align=center />
 </div>
 
 
