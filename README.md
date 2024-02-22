@@ -125,7 +125,7 @@ The rows with **``type="leaf"``** are all the leaves of this tree, recording its
 Note that, our proposed TGP-Net doesn't use these leaf information in practice. But you can freely use them in your own project if needed. ^_^
 
 
-:diamonds: Please feel free to use my dataset in your work as long as you have indicated my name or cited this paper.
+:hearts: Please feel free to use my dataset in your work as long as you have indicated my name or cited this paper.
 
 # 2. Codes and Software:
 
