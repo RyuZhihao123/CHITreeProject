@@ -3,9 +3,12 @@
 
 
 
-This is the official repository of paper "DeepTreeSketch: Neural Graph Prediction for Faithful 3D Tree Modeling from Sketches. [Zhihao Liu](https://ryuzhihao123.github.io/), et al., ACM CHI, 2024". If interested, welcome to visit my **[homepage](https://ryuzhihao123.github.io/)** for my other projects and codes. ^_^
+This is the official repository of paper "DeepTreeSketch: Neural Graph Prediction for Faithful 3D Tree Modeling from Sketches. [Zhihao Liu](https://ryuzhihao123.github.io/), et al., ACM CHI, 2024". 
+If interested, welcome to visit my **[homepage](https://ryuzhihao123.github.io/)** for my other projects and codes. ^_^
 
-In current stage, **we first mainly shared our dataset [[download link]](https://univtokyo-my.sharepoint.com/:u:/g/personal/1487479010_utac_u-tokyo_ac_jp/EYL59bp6A2hMsjYFnHeDZaUBVow5KimE9KsTjwQfsSPMGw?e=LUjHsy) to provide more information to address some concerns of reviewers**. The entire **source codes** will be also released after the final official acceptance.
+In current stage, **we first mainly shared our dataset [[download link]](https://univtokyo-my.sharepoint.com/:u:/g/personal/1487479010_utac_u-tokyo_ac_jp/EYL59bp6A2hMsjYFnHeDZaUBVow5KimE9KsTjwQfsSPMGw?e=LUjHsy) to provide more information to address some concerns of reviewers**. We also uploaded a light-weight tool **[[link]](https://github.com/RyuZhihao123/CHITreeProject/tree/main/TreeDatasetGenerator)** that we develped for automatically generating random tree models.
+
+The entire **source codes** will be also released after the final official acceptance.
 
 
 
@@ -61,7 +64,7 @@ Considering that the Parametric L-system is not the main focus of our paper, and
 
 - **Link:** Please download this tool (a light-weight version) under this **[folder](https://github.com/RyuZhihao123/CHITreeProject/tree/main/TreeDatasetGenerator)**.
 
-- **Usage:** Double click ``Tree_Dataset_Generator.exe`` to run this problem. You can re-generate a new tree by pressing the button ``Get New Tree``. Also you can choose the tree species through the ComboBox (droplist).
+- **Usage:** Double click the **``Tree_Dataset_Generator.exe``** to run this problem. You can re-generate a new random tree model by simply pressing the button **``Get New Tree``**. Also you can change the tree species through the ComboBox (droplist).
 
 <div align=center>
 <img src="https://github.com/RyuZhihao123/CHITreeProject/blob/main/TreeDatasetGenerator/dataset_generator.png" width = "430" alt="ack" align=center />
