@@ -57,7 +57,7 @@ Considering that the Parametric L-system is not the main focus of our paper, and
 
 ## (b) My software: Tree Dataset Generator.
 
-:hearts: We also provided **the software** that I developed for automatically generating the tree models. 
+:hearts: We also provided **our software** that we developed for automatically generating the tree models. 
 
 - **Link:** Please download this tool (a light-weight version) under this **[folder](https://github.com/RyuZhihao123/CHITreeProject/tree/main/TreeDatasetGenerator)**.
 
