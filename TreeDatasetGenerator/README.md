@@ -1,6 +1,6 @@
 ## My Software - "Tree Dataset Generator".
 
-:hearts: We also provided **our software** that we developed for automatically generating the 3Dtree models. This is a clean version tool and you can use it to easily get different 3D tree variants of a specifed species.
+:hearts: We also provided **our software** that we developed for automatically generating the 3D tree models. This is a clean version tool and you can use it to easily get different 3D tree variants of a specifed species.
 
 - **Download Link:**
   - Please download our tool (light-weight version) under this **[folder](https://github.com/RyuZhihao123/CHITreeProject/tree/main/TreeDatasetGenerator)**.
