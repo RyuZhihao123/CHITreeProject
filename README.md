@@ -20,12 +20,9 @@ This algorithm contributes the majority of our training set, while the rest are 
 :hearts: **Dataset Link:** Please download our dataset of tree skeletons through this [[download link]](https://univtokyo-my.sharepoint.com/:u:/g/personal/1487479010_utac_u-tokyo_ac_jp/EYL59bp6A2hMsjYFnHeDZaUBVow5KimE9KsTjwQfsSPMGw?e=LUjHsy).
 
 
-## (a) Basic Information about Our Algorithm for Dataset Creation.
+## (a) Basic Information on Our Algorithm for Dataset Creation.
 
 :hearts: Note that, apart from our CHI submission, <ins>**My Implemented Algorithm** has also been used by several top-tier **SIGGRAPH-level Papers**</ins> to help them generate the training dataset of 3D trees. For example: 
-
-
-
 
 
 > **TreePartNet: Neural Decomposition of Point Clouds for 3D Tree Reconstruction.**
@@ -134,7 +131,7 @@ Note that, our proposed TGP-Net doesn't use these leaf information in practice. 
 
 :hearts: Please feel free to use my dataset in your work as long as you have indicated my name or cited this paper.
 
-# 2. Codes and Software:
+# 2. Codes:
 
 In current stage, we first mainly shared our dataset [[link]](https://univtokyo-my.sharepoint.com/:u:/g/personal/1487479010_utac_u-tokyo_ac_jp/EYL59bp6A2hMsjYFnHeDZaUBVow5KimE9KsTjwQfsSPMGw?e=LUjHsy) to provide more information to address some concerns, **the entire source codes will be released right after the final official acceptance.**
 
