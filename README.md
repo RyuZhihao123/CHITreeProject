@@ -57,7 +57,7 @@ Considering that the Parametric L-system is not the main focus of our paper, and
 
 ## (b) My software: Tree Dataset Generator.
 
-:hearts: We also provided **our software** that we developed for automatically generating the 3Dtree models. This is a clean version tool and you can easily get different 3D tree variants of a specifed species.
+:hearts: We also provided **our software** that we developed for automatically generating the 3Dtree models. This is a clean version tool and you can use it to easily get different 3D tree variants of a specifed species.
 
 - **Download Link:**
   - Please download our tool (light-weight version) under this **[folder](https://github.com/RyuZhihao123/CHITreeProject/tree/main/TreeDatasetGenerator)**.
@@ -83,7 +83,7 @@ Considering that the Parametric L-system is not the main focus of our paper, and
 
 ## (c) How to use our synthesized dataset.
 
-In our CHI submission, we synthesized a large tree dataset [[link]](https://univtokyo-my.sharepoint.com/:u:/g/personal/1487479010_utac_u-tokyo_ac_jp/EYL59bp6A2hMsjYFnHeDZaUBVow5KimE9KsTjwQfsSPMGw?e=LUjHsy) with various different species. 
+As mentioned above, in our CHI submission, we synthesized a large tree dataset [[link]](https://univtokyo-my.sharepoint.com/:u:/g/personal/1487479010_utac_u-tokyo_ac_jp/EYL59bp6A2hMsjYFnHeDZaUBVow5KimE9KsTjwQfsSPMGw?e=LUjHsy) with various different species. 
 Here are some examples in our dataset:
 
 <div align=center>
