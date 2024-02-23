@@ -133,7 +133,7 @@ Note that, our proposed TGP-Net doesn't use these leaf information in practice. 
 
 # 2. Codes and System
 
-In current stage, we first mainly shared our dataset [[link]](https://univtokyo-my.sharepoint.com/:u:/g/personal/1487479010_utac_u-tokyo_ac_jp/EYL59bp6A2hMsjYFnHeDZaUBVow5KimE9KsTjwQfsSPMGw?e=LUjHsy) to provide more information to address some concerns, **the entire Source Codes will be released right after the final official acceptance.**
+In current stage, we first mainly shared our dataset [[link]](https://univtokyo-my.sharepoint.com/:u:/g/personal/1487479010_utac_u-tokyo_ac_jp/EYL59bp6A2hMsjYFnHeDZaUBVow5KimE9KsTjwQfsSPMGw?e=LUjHsy) to provide more information to address some concerns of reviewers, **the entire Source Codes will be released right after the final official acceptance.**
 
 
 Additionally, as a bonus, we are now working on a **Online-version software** (a web version implemented with Javascript + WebGL) as well, which will enable people from all over the world to freely explore our modeling system at any time. 
