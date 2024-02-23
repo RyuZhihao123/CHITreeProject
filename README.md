@@ -145,7 +145,7 @@ Thus, we are currently trying to configure our neural network (TGP-Net) to **per
 <img src="https://github.com/RyuZhihao123/CHI_DeepTreeSketch/blob/main/Figures/2-system.png" width = "400" alt="ack" align=center />
 </div>
 
-:hearts: **Preview Video (30s)**: [[link]](https://drive.google.com/file/d/1OWxs8qqY5TlOmHmFK0q09OskPwmFZYgo/view?usp=sharing)
+:hearts: **Preview Video (30s)**: [[link]](https://drive.google.com/file/d/1Kvj47Ckju43i9IpJ6OjWzE2ZkxVbOFTX/view?usp=sharing)
 
-:hearts: **Full Video (3min 30s)**: [[link]](https://drive.google.com/file/d/11gOYrc6LoWO4ifWXVO1L0G4mbRmqlOtT/view?usp=sharing)
+:hearts: **Full Video (3min 30s)**: [[link]](https://drive.google.com/file/d/1cJ0BEuGepNzLWGJVDTQxNBuchiMsCZT4/view?usp=sharing)
 
