@@ -131,9 +131,9 @@ Note that, our proposed TGP-Net doesn't use these leaf information in practice. 
 
 :hearts: Please feel free to use my dataset in your work as long as you have indicated my name or cited this paper.
 
-# 2. Codes:
+# 2. Codes and System
 
-In current stage, we first mainly shared our dataset [[link]](https://univtokyo-my.sharepoint.com/:u:/g/personal/1487479010_utac_u-tokyo_ac_jp/EYL59bp6A2hMsjYFnHeDZaUBVow5KimE9KsTjwQfsSPMGw?e=LUjHsy) to provide more information to address some concerns, **the entire source codes will be released right after the final official acceptance.**
+In current stage, we first mainly shared our dataset [[link]](https://univtokyo-my.sharepoint.com/:u:/g/personal/1487479010_utac_u-tokyo_ac_jp/EYL59bp6A2hMsjYFnHeDZaUBVow5KimE9KsTjwQfsSPMGw?e=LUjHsy) to provide more information to address some concerns, **the entire Source Codes will be released right after the final official acceptance.**
 
 
 Additionally, as a bonus, we are now working on a **Online-version software** (a web version implemented with Javascript + WebGL) as well, which will enable people from all over the world to freely explore our modeling system at any time. 
@@ -144,4 +144,7 @@ Thus, we are currently trying to configure our neural network (TGP-Net) to **per
 <img src="https://github.com/RyuZhihao123/CHI_DeepTreeSketch/blob/main/Figures/2-system.png" width = "400" alt="ack" align=center />
 </div>
 
+:hearts: **Preview Video (30s)**: [[link]](https://drive.google.com/file/d/1sEN_L5Q8CbJcRd8vpTEfz09t_VE13RdK/view?usp=sharing)
+
+:hearts: **Full Video (3min 30s)**: [[link]](https://drive.google.com/file/d/1_SKESY6bWIadN6kaeFk7A_mwK9m_LvjF/view?usp=sharing)
 
