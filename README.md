@@ -20,7 +20,7 @@ This algorithm contributes the majority of our training set, while the rest are 
 :hearts: **Dataset Link:** Please download our dataset of tree skeletons through this [[download link]](https://univtokyo-my.sharepoint.com/:u:/g/personal/1487479010_utac_u-tokyo_ac_jp/EYL59bp6A2hMsjYFnHeDZaUBVow5KimE9KsTjwQfsSPMGw?e=LUjHsy).
 
 
-## (a) Basic information about our L-system algorithm.
+## (a) Basic Information about Our Algorithm for Dataset Creation.
 
 :hearts: Note that, apart from our CHI submission, <ins>**My Implemented Algorithm** has also been used by several top-tier **SIGGRAPH-level Papers**</ins> to help them generate the training dataset of 3D trees. For example: 
 
