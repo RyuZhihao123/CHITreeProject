@@ -22,7 +22,7 @@ This algorithm contributes the majority of our training set, while the rest are 
 
 ## (a) Basic Information on Our Algorithm for Dataset Creation.
 
-:hearts: Note that, apart from our CHI submission, <ins>**My Implemented Algorithm** has also been used by several top-tier **SIGGRAPH-level Papers**</ins> to help them generate the training dataset of 3D trees. For example: 
+:hearts: Note that, apart from our CHI submission, <ins>**My Implemented Algorithm** has also been used by several top-tier **SIGGRAPH-level Papers**</ins> to help them generate the training dataset of 3D trees. **For example:** 
 
 
 > **TreePartNet: Neural Decomposition of Point Clouds for 3D Tree Reconstruction.**
