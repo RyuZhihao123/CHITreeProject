@@ -146,5 +146,5 @@ Thus, we are currently trying to configure our neural network (TGP-Net) to **per
 
 :hearts: **Preview Video (30s)**: [[link]](https://drive.google.com/file/d/1Kvj47Ckju43i9IpJ6OjWzE2ZkxVbOFTX/view?usp=sharing)
 
-:hearts: **Full Video (3min 30s)**: [[link]](https://drive.google.com/file/d/1icp3dVXWTu6DKAOR3mi8WwVJbKEYlg3R/view?usp=sharing)
+:hearts: **Full Video (3min 30s)**: [[link]](https://drive.google.com/file/d/1mZaTIkgjvf7V4bfkbpkXPvc4VRz6pa7x/view?usp=sharing)
 
