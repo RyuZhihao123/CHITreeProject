@@ -137,7 +137,6 @@ Note that, our proposed TGP-Net doesn't use these leaf information in practice. 
 
 :heart: **Point Cloud-based 3D Tree Reconstruction**: Please check **[my other Github repository (link)](https://github.com/RyuZhihao123/SVDTree)** for its full source code. You can use my code to easily reconstruct 3D trees from point clouds.
 
-![image info](https://github.com/RyuZhihao123/SVDTree/blob/main/Fig_0.png)
 
 <div align=center>
 <img src="https://github.com/RyuZhihao123/SVDTree/blob/main/Fig_UI_1.png" width = "400" alt="ack" title="dasdasdsa title" align=center />
