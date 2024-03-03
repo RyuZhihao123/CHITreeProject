@@ -80,7 +80,7 @@ Considering that the Parametric L-system is not the main focus of our paper, and
 - If you encounter any issues, please feel free to contact me at any time.
 <br/>
 
-## (c) How to use our synthesized dataset.
+## (c) Dataset Format (How to use our synthesized dataset).
 
 As mentioned above, in our CHI submission, we synthesized a large tree dataset [[link]](https://univtokyo-my.sharepoint.com/:u:/g/personal/1487479010_utac_u-tokyo_ac_jp/EYL59bp6A2hMsjYFnHeDZaUBVow5KimE9KsTjwQfsSPMGw?e=LUjHsy) with various different species. 
 Here are some examples in our dataset:
@@ -129,6 +129,22 @@ Note that, our proposed TGP-Net doesn't use these leaf information in practice. 
 
 
 :hearts: Please feel free to use my dataset in your work as long as you have indicated my name or cited this paper.
+
+
+## (d) [Bonus] Our other methods to get tree models from real-world data.
+
+**Our paper also includes some real-world trees in our dataset.** We reconstructed the 3D tree models from the 3D point cloud or images (we have collected them for our previous/recent papers).
+
+:heart: **Point Cloud-based 3D Tree Reconstruction**: Please check **[my other Github repository (link)](https://github.com/RyuZhihao123/SVDTree)** for its full source code. You can use my code to easily reconstruct 3D trees from point clouds.
+
+![image info](https://github.com/RyuZhihao123/SVDTree/blob/main/Fig_0.png)
+
+<div align=center>
+<img src="https://github.com/RyuZhihao123/SVDTree/blob/main/Fig_UI_1.png" width = "400" alt="ack" title="dasdasdsa title" align=center />
+<img src="https://github.com/RyuZhihao123/SVDTree/blob/main/Fig_UI_3.png" width = "400" alt="ack" title="dasdasdsa title" align=center />
+</div>
+<br/>
+
 
 # 2. Codes and System
 
