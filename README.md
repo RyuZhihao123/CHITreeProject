@@ -133,7 +133,7 @@ Note that, our proposed TGP-Net doesn't use these leaf information in practice. 
 
 ## (d) [Bonus] Our other methods to get tree models from real-world data.
 
-**Our paper also includes some real-world trees in our dataset.** We reconstructed the 3D tree models from the 3D point cloud or images (we have collected them for our previous/recent papers).
+**Our paper also includes some real-world trees in our dataset.** We reconstructed the 3D tree models from the 3D point cloud or images (I have implemented the algorithm in advance and collected the data for my previous papers).
 
 :heart: **Point Cloud-based 3D Tree Reconstruction**: Please check **[my other Github repository (link)](https://github.com/RyuZhihao123/SVDTree)** for its full source code. You can use my code to easily reconstruct 3D trees from point clouds.
 
