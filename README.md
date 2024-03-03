@@ -55,7 +55,7 @@ Considering that the Parametric L-system is not the main focus of our paper, and
 [[Prusinkiewicz et al. 12]](https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=pjH7e8IAAAAJ&citation_for_view=pjH7e8IAAAAJ:TIZ-Mc8IlK0C) 
 <br/>
 
-## (b) My software: Tree Dataset Generator.
+## (b) My software: Automatic Tree Dataset Generator.
 
 :hearts: We also provided **our software** that we developed for automatically generating the 3D tree models. This is a clean version tool and you can use it to easily get different 3D tree variants of a specifed species.
 
@@ -133,7 +133,7 @@ Note that, our proposed TGP-Net doesn't use these leaf information in practice. 
 
 ## (d) [Bonus] Our other methods to get tree models from real-world data.
 
-**Our paper also includes some real-world trees in our dataset.** We reconstructed the 3D tree models from the 3D point cloud or images (I have implemented the algorithm in advance and collected the data for my previous papers).
+In addition to the automatic generation of tree data, **our paper also includes some real-world trees in our dataset.** We reconstructed the 3D tree models from the 3D point cloud or images (I have implemented the algorithm in advance and collected the data for my previous papers).
 
 :heart: **Point Cloud-based 3D Tree Reconstruction**: Please check **[my other Github repository (link)](https://github.com/RyuZhihao123/SVDTree)** for its full source code. You can use my code to easily reconstruct 3D trees from point clouds.
 
