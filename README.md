@@ -3,13 +3,12 @@
 
 
 
-This is the official repository of paper "DeepTreeSketch: Neural Graph Prediction for Faithful 3D Tree Modeling from Sketches. [Zhihao Liu](https://ryuzhihao123.github.io/), et al., ACM CHI, 2024". 
-If interested, welcome to visit my **[homepage](https://ryuzhihao123.github.io/)** for my other projects and codes. ^_^
+This is the supplemental material for the paper "DeepTreeSketch: Neural Graph Prediction for Faithful 3D Tree Modeling from Sketches. [Zhihao Liu](https://ryuzhihao123.github.io/), et al., ACM CHI, 2024". 
 
-In current stage, **we first shared our Dataset [[download link]](https://univtokyo-my.sharepoint.com/:u:/g/personal/1487479010_utac_u-tokyo_ac_jp/EYL59bp6A2hMsjYFnHeDZaUBVow5KimE9KsTjwQfsSPMGw?e=LUjHsy) to provide more information to address some concerns of reviewers**. Additionally, we also provided a **Light-weight Tool** **[[link]](https://github.com/RyuZhihao123/CHITreeProject/tree/main/TreeDatasetGenerator)** that we develped for automatically generating the tree dataset.
+In this repository, we provided additional information on the tree **dataset**, as well as the **softwares that we develped for automatically generating the 3D tree models for training**.
 
-The entire **Source Codes** will be also released after the final official acceptance.
-
+**Demo Videos:** [[Preview Video (30s)]](https://drive.google.com/file/d/1Kvj47Ckju43i9IpJ6OjWzE2ZkxVbOFTX/view?usp=sharing)
+[[Full Video (3min 30s)]](https://drive.google.com/file/d/1YNooKZMfFbwdyMv2JzuzhmUu7tJSMahL/view?usp=sharing)
 
 
 
@@ -17,7 +16,7 @@ The entire **Source Codes** will be also released after the final official accep
 In the very beginning, we implemented a comprehensive **Parametric l-system algorithm** for creating diverse high-quality 3D tree models automatically as the training dataset. 
 This algorithm contributes the majority of our training set, while the rest are the real-world trees reconstructed from point clouds and images.
 
-:hearts: **Dataset Link:** Please download our dataset of tree skeletons through this [[download link]](https://univtokyo-my.sharepoint.com/:u:/g/personal/1487479010_utac_u-tokyo_ac_jp/EYL59bp6A2hMsjYFnHeDZaUBVow5KimE9KsTjwQfsSPMGw?e=LUjHsy).
+**Dataset Link:** Please download the dataset of tree skeletons through this [[link (ver: 20220509)]](https://univtokyo-my.sharepoint.com/:u:/g/personal/1487479010_utac_u-tokyo_ac_jp/EYL59bp6A2hMsjYFnHeDZaUBVow5KimE9KsTjwQfsSPMGw?e=LUjHsy).
 
 
 ## (a) Basic Information on Our Algorithm for Dataset Creation.
@@ -35,7 +34,7 @@ Please see their **``Acknowledgement section``** below for some proof that their
 <div align=center>
 <img src="https://github.com/RyuZhihao123/CHI_DeepTreeSketch/blob/main/0-ack.png" width = "700" alt="ack" title="dasdasdsa title" align=center />
 <br/><center><b>Fig. 1. Several SIGGRAPH-level papers also borrowed my tree modeling algorithm to synthesize the 3D tree dataset, because of the strong capability of my implementated system.</b></center>
-<br/><center><b>图1. 除了我们的CHI的提交之外，我们实现的Parametric L-system算法也被多篇SIGGRAPH论文(图形学顶会)所借用，用以生成他们所需的3D树木数据集（如上图）。请参考他们的Acknowledgement章节可以获知这一事情。</b></center>
+<br/><center><b>图1. 除了我们的CHI的提交之外，我们实现的树木建模算法也被一些SIGGRAPH论文(图形学顶会)所借用，用以生成他们所需的3D树木数据集（如上图）。</b></center>
 </div>
 <br/>
 
@@ -55,7 +54,7 @@ Considering that the Parametric L-system is not the main focus of our paper, and
 [[Prusinkiewicz et al. 12]](https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=pjH7e8IAAAAJ&citation_for_view=pjH7e8IAAAAJ:TIZ-Mc8IlK0C) 
 <br/>
 
-## (b) My software: Automatic Tree Dataset Generator.
+## (b) [My software 1] Automatic Tree Dataset Generator.
 
 :hearts: We also provided **our software** that we developed for automatically generating the 3D tree models. This is a clean version tool and you can use it to easily get different 3D tree variants of a specifed species.
 
@@ -74,15 +73,47 @@ Considering that the Parametric L-system is not the main focus of our paper, and
 
 
 <div align=center>
-<img src="https://github.com/RyuZhihao123/CHITreeProject/blob/main/TreeDatasetGenerator/dataset_generator.png" width = "430" alt="ack" align=center />
+  <img src="https://github.com/RyuZhihao123/CHITreeProject/blob/main/TreeDatasetGenerator/dataset_generator.png" width = "330" alt="ack" align=center />
+  <br/><center><b>Fig. 2.</b> The software we developed for automatically generating a large number of 3D tree models.</center>
 </div>
 
-- If you encounter any issues, please feel free to contact me (liuzh96@outlook.com) at any time.
+
+
+
+## (c) [My software 2] Point-cloud based 3D Tree Reconstruction.
+
+:hearts: In addition to the automatic generation of tree data, **our paper also includes some real-world trees in our dataset.** For example, we reconstructed some 3D tree models from **scanned 3D point clouds**.
+
+<div align=center>
+<img src="https://github.com/RyuZhihao123/SVDTree/blob/main/Fig_0.png" width = "900" alt="ack" align=center />
+</div>
+
+
+- **Download Link:** Please check **[Folder](https://github.com/RyuZhihao123/CHITreeProject/tree/main/TreeFromPointClouds)** to download our developed software.
+
+- **Requirement & Usage:**
+  - This software is only compiled for **Win10+**. The configuration is the same as the above software 1.
+  - After downloading the entire **[Folder](https://github.com/RyuZhihao123/CHITreeProject/tree/main/TreeFromPointClouds)**, you can directly run the program by double clicking the **``TreeFromPoint.exe``**.
+  - After activating the executable program, you can click the button "加载点云" to load a point cloud file. And then sequentially click the buttons from "(1)确定主干区域" to "(7)优化".
+
+- **Test data of a 3D Point Cloud:**
+  - Please download **this EXAMPLE 3D point cloud file [[xyz file](https://github.com/RyuZhihao123/SVDTree/blob/main/Tree1_input.xyz)]** to quickly have a try with our software.
+  - You can easily use your own collected 3D point clouds in our software as well, as long as you have reformated them beforehand according to the form of the above example point cloud file.
+
+
+
+
+<div align=center>
+  <img src="https://github.com/RyuZhihao123/SVDTree/blob/main/Fig_UI_1.png" width = "300" alt="ack" title="dasdasdsa title" align=center />
+  <img src="https://github.com/RyuZhihao123/SVDTree/blob/main/Fig_UI_3.png" width = "300" alt="ack" title="dasdasdsa title" align=center />
+  <br/><center><b>Fig. 3.</b> The software we developed for reconstructing 3D tree models from real-world point clouds. These tree models are also used for training.</center>
+
+</div>
 <br/>
 
-## (c) Dataset Format (How to use our synthesized dataset).
+## (d) Dataset Format.
 
-As mentioned above, in our CHI submission, we synthesized a large tree dataset [[link]](https://univtokyo-my.sharepoint.com/:u:/g/personal/1487479010_utac_u-tokyo_ac_jp/EYL59bp6A2hMsjYFnHeDZaUBVow5KimE9KsTjwQfsSPMGw?e=LUjHsy) with various different species. 
+As mentioned above, in our CHI submission, we synthesized a large tree dataset with various different species. 
 Here are some examples in our dataset:
 
 <div align=center>
@@ -131,35 +162,17 @@ Note that, our proposed TGP-Net doesn't use these leaf information in practice. 
 :hearts: Please feel free to use my dataset in your work as long as you have indicated my name or cited this paper.
 
 
-## (d) [Bonus] Our other methods to get tree models from real-world data.
-
-In addition to the automatic generation of tree data, **our paper also includes some real-world trees in our dataset.** We reconstructed the 3D tree models from the 3D point cloud or images (I have implemented the algorithm in advance and collected the data for my previous papers).
-
-:heart: **Point Cloud-based 3D Tree Reconstruction**: Please check **[my other Github repository (link)](https://github.com/RyuZhihao123/SVDTree)** for its full source code. You can use my code to easily reconstruct 3D trees from point clouds.
 
 
-<div align=center>
-<img src="https://github.com/RyuZhihao123/SVDTree/blob/main/Fig_UI_1.png" width = "400" alt="ack" title="dasdasdsa title" align=center />
-<img src="https://github.com/RyuZhihao123/SVDTree/blob/main/Fig_UI_3.png" width = "400" alt="ack" title="dasdasdsa title" align=center />
-</div>
-<br/>
 
-
-# 2. Codes and System
-
-In current stage, we first mainly shared our dataset [[link]](https://univtokyo-my.sharepoint.com/:u:/g/personal/1487479010_utac_u-tokyo_ac_jp/EYL59bp6A2hMsjYFnHeDZaUBVow5KimE9KsTjwQfsSPMGw?e=LUjHsy) and our dataset generator tool [[link]](https://github.com/RyuZhihao123/CHITreeProject/tree/main/TreeDatasetGenerator) to provide more information to address some concerns of reviewers. 
-**The entire Source Codes will be released right after the final official acceptance.**
-
+# 2. System
 
 Additionally, as a bonus, we are now working on a **Online-version software** (a web version implemented with Javascript + WebGL) as well, which will enable people from all over the world to freely explore our modeling system at any time. 
-Thus, we are currently trying to configure our neural network (TGP-Net) to **permanently** run on a GPU workstation with public accessible IP address. Ideally, this online system will be also launched approximately in April (basically after UIST's deadline).
+Thus, we are currently trying to configure our neural network (TGP-Net) to **permanently** run on a GPU workstation with public accessible IP address.
 
 
 <div align=center>
 <img src="https://github.com/RyuZhihao123/CHI_DeepTreeSketch/blob/main/Figures/2-system.png" width = "400" alt="ack" align=center />
 </div>
 
-:hearts: **Preview Video (30s)**: [[link]](https://drive.google.com/file/d/1Kvj47Ckju43i9IpJ6OjWzE2ZkxVbOFTX/view?usp=sharing)
-
-:hearts: **Full Video (3min 30s)**: [[link]](https://drive.google.com/file/d/1YNooKZMfFbwdyMv2JzuzhmUu7tJSMahL/view?usp=sharing)
 
