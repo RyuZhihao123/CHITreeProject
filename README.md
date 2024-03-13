@@ -12,7 +12,7 @@ In this repository, we provided additional information on the tree **dataset**, 
 
 
 
-# 1. Tree Dataset
+# 1. Tree Dataset.
 In the very beginning, we implemented a comprehensive **Parametric l-system algorithm** for creating diverse high-quality 3D tree models automatically as the training dataset. 
 This algorithm contributes the majority of our training set, while the rest are the real-world trees reconstructed from point clouds and images.
 
@@ -165,7 +165,7 @@ Note that, our proposed TGP-Net doesn't use these leaf information in practice. 
 
 
 
-# 2. Sketching System
+# 2. Sketching System.
 
 As a bonus, we are now working on a **Online-version software** (a web version implemented with Javascript + WebGL) as well, which will enable people from all over the world to freely explore our modeling system using their browser at any time. 
 Thus, we are currently trying to configure our neural network (TGP-Net) to **permanently** run on a GPU workstation with public accessible IP address. The system will be launched once it's done.
