@@ -167,7 +167,7 @@ Note that, our proposed TGP-Net doesn't use these leaf information in practice. 
 
 # 2. Sketching System
 
-As a bonus, we are now working on a **Online-version software** (a web version implemented with Javascript + WebGL) as well, which will enable people from all over the world to freely explore our modeling system using their browsesr at any time. 
+As a bonus, we are now working on a **Online-version software** (a web version implemented with Javascript + WebGL) as well, which will enable people from all over the world to freely explore our modeling system using their browser at any time. 
 Thus, we are currently trying to configure our neural network (TGP-Net) to **permanently** run on a GPU workstation with public accessible IP address. The system will be launched once it's done.
 
 
