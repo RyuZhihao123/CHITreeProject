@@ -97,7 +97,7 @@ Considering that the Parametric L-system is not the main focus of our paper, and
   - After activating the executable program, you can click the button "加载点云" to load a point cloud file. And then sequentially click the buttons from "(1)确定主干区域" to "(7)优化".
 
 - **Test data of a 3D Point Cloud:**
-  - Please download **this EXAMPLE 3D point cloud file [[xyz file](https://github.com/RyuZhihao123/SVDTree/blob/main/Tree1_input.xyz)]** to quickly have a try with our software.
+  - Please download **this EXAMPLE 3D point cloud file [[xyz file](https://github.com/RyuZhihao123/CHITreeProject/blob/main/Tree1_input.xyz)]** to quickly have a try with our software.
   - You can easily use your own collected 3D point clouds in our software as well, as long as you have reformated them beforehand according to the form of the above example point cloud file.
 
 
