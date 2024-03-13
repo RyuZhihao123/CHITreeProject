@@ -54,7 +54,7 @@ Considering that the Parametric L-system is not the main focus of our paper, and
 [[Prusinkiewicz et al. 12]](https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=pjH7e8IAAAAJ&citation_for_view=pjH7e8IAAAAJ:TIZ-Mc8IlK0C) 
 <br/>
 
-## (b) [My software 1] Automatic Tree Dataset Generator.
+## (b) [My Software 1] Automatic Tree Dataset Generator.
 
 :hearts: We also provided **our software** that we developed for automatically generating the 3D tree models. This is a clean version tool and you can use it to easily get different 3D tree variants of a specifed species.
 
@@ -62,7 +62,7 @@ Considering that the Parametric L-system is not the main focus of our paper, and
 
 - **Requirement (Configuration):**
   - Your should install **Visual Studio 2019+** on your PC. **Qt 5.8+** is also an option, but you basically only need one of them.
-  - Additionally, we strongly suggest to install **CMake** [[link]](https://cmake.org/download/) and **OpenGL** (for 3D visualization) [[link]](https://www.opengl.org/) into your system path. Sometimes they are not strictly required because some PC may already have installed them by default. But pre-installation can somehow avoid unexpected compile errors.
+  - Additionally, we strongly suggest to install **CMake** and **OpenGL** (for 3D visualization) into your system path. Sometimes they are not strictly required because some PC may already have installed them by default. But pre-installation can somehow avoid unexpected compile errors.
   - Note that, this tool is only compiled for **Windows System (win10+)**. *Mac* is currently NOT supported.
 
 - **Usage:**
@@ -80,7 +80,7 @@ Considering that the Parametric L-system is not the main focus of our paper, and
 
 
 
-## (c) [My software 2] Point-cloud based 3D Tree Reconstruction.
+## (c) [My Software 2] Point-cloud based 3D Tree Reconstruction.
 
 :hearts: In addition to the automatic generation of tree data, **our paper also includes some real-world trees in our dataset.** For example, we reconstructed some 3D tree models from **scanned 3D point clouds**.
 
