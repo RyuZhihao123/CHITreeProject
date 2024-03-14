@@ -1,8 +1,6 @@
 # CHI24_TreeProject
 
 
-
-
 This is the supplemental material for the paper "DeepTreeSketch: Neural Graph Prediction for Faithful 3D Tree Modeling from Sketches. **[Zhihao Liu](https://ryuzhihao123.github.io/)**, et al., ACM CHI, 2024". 
 
 In this repository, we provided additional information on the tree **dataset**, as well as the **softwares that we developed for automatically generating the 3D tree models for network training**.
