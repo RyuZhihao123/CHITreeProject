@@ -56,7 +56,7 @@ Considering that the Parametric L-system is not the main focus of our paper, and
 
 :hearts: We also provided **our software** that we developed for automatically generating the 3D tree models. This is a clean version tool and you can use it to easily get different 3D tree variants of a specifed species.
 
-- **Download Link:** Please download our tool (light-weight version) under this **[folder](https://github.com/RyuZhihao123/CHITreeProject/tree/main/TreeDatasetGenerator)**.
+- **Download Link:** Please download our tool (light-weight version) under this **[Folder](https://github.com/RyuZhihao123/CHITreeProject/tree/main/TreeDatasetGenerator)** **(You need download the entire folder)**.
 
 - **Requirement (Configuration):**
   - Your should install **Visual Studio 2019+** on your PC. **Qt 5.8+** is also an option, but you basically only need one of them.
@@ -87,7 +87,7 @@ Considering that the Parametric L-system is not the main focus of our paper, and
 </div>
 
 
-- **Download Link:** Please check this **[Folder](https://github.com/RyuZhihao123/CHITreeProject/tree/main/TreeFromPointClouds)** to download our developed software.
+- **Download Link:** Please check this **[Folder](https://github.com/RyuZhihao123/CHITreeProject/tree/main/TreeFromPointClouds)** to download our developed software **(You need download the entire folder)**.
 
 - **Requirement & Usage:**
   - This software is only compiled for **Win10+**. The configuration is the same as the above software 1.
