@@ -104,8 +104,8 @@ Considering that the Parametric L-system is not the main focus of our paper, and
 
 
 <div align=center>
-  <img src="https://github.com/RyuZhihao123/SVDTree/blob/main/Fig_UI_1.png" width = "300" alt="ack" title="dasdasdsa title" align=center />
-  <img src="https://github.com/RyuZhihao123/SVDTree/blob/main/Fig_UI_3.png" width = "300" alt="ack" title="dasdasdsa title" align=center />
+  <img src="https://github.com/RyuZhihao123/SVDTree/blob/main/Fig_UI_1.png" width = "400" alt="ack" title="dasdasdsa title" align=center />
+  <img src="https://github.com/RyuZhihao123/SVDTree/blob/main/Fig_UI_3.png" width = "400" alt="ack" title="dasdasdsa title" align=center />
   <br/><center><b>Fig. 3.</b> The second software we developed for reconstructing real-world trees from 3D point clouds. These tree models were also used in the training dataset.</center>
 
 </div>
