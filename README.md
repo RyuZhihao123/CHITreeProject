@@ -165,7 +165,7 @@ Note that, our proposed TGP-Net doesn't use these leaf information in practice. 
 
 # 2. Online Sketching System.
 
-Our current system is developed with C++ which is inconvenient to configure and install.
+Our current system is developed with C++ (User interface) and Python (Local Neural Network Server), so it is inconvenient to configure and install.
 Therefore, as a bonus, we are now working on a **Online-version software** (a web version implemented with Javascript + WebGL) as well, which will enable people from all over the world to freely explore our modeling system using their browser at any time. 
 Thus, we are currently trying to configure our neural network (TGP-Net) to **permanently** run on a GPU workstation with public accessible IP address. The web system will be launched once it's done.
 
