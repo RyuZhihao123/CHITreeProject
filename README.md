@@ -3,10 +3,14 @@
 
 This is the supplemental material for the paper "DeepTreeSketch: Neural Graph Prediction for Faithful 3D Tree Modeling from Sketches. **[Zhihao Liu](https://ryuzhihao123.github.io/)**, et al., **ACM CHI**, 2024". 
 
+🎦 **Demo Videos:** [[Preview Video (30s)]](https://drive.google.com/file/d/1Kvj47Ckju43i9IpJ6OjWzE2ZkxVbOFTX/view?usp=sharing)
+[[Full Video (3min)]](https://drive.google.com/file/d/1YNooKZMfFbwdyMv2JzuzhmUu7tJSMahL/view?usp=sharing).
+
+📙 **Paper:** [[PDF]](https://drive.google.com/file/d/1hyoL_i8CPeNgi1NJd1Ay5osbsw-mATt9/view?usp=drive_link).
+
 In this repository, we provided additional information on the tree **dataset**, as well as the **softwares that we developed for automatically generating the 3D tree models for network training**.
 
-🎦 **Demo Videos:** [[Preview Video (30s)]](https://drive.google.com/file/d/1Kvj47Ckju43i9IpJ6OjWzE2ZkxVbOFTX/view?usp=sharing)
-[[Full Video (3min 30s)]](https://drive.google.com/file/d/1YNooKZMfFbwdyMv2JzuzhmUu7tJSMahL/view?usp=sharing).
+
 
 
 
