@@ -9,7 +9,7 @@ This is the supplemental material for the paper "DeepTreeSketch: Neural Graph Pr
 📙 **Paper:** [[PDF]](https://drive.google.com/file/d/1hyoL_i8CPeNgi1NJd1Ay5osbsw-mATt9/view?usp=drive_link).
 
 In this repository, we provided additional information on the tree **dataset**, as well as the **softwares that we developed for automatically generating the 3D tree models for network training**.
-
+If you need the latest version dataset please feel free to write to us about your affiliation and purpose.
 
 
 
