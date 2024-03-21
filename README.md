@@ -21,7 +21,7 @@ This algorithm contributes the majority of our training set, while the rest are 
 **Dataset Link:** Please download the experimental dataset through this [[link (version: 20220509)]](https://univtokyo-my.sharepoint.com/:u:/g/personal/1487479010_utac_u-tokyo_ac_jp/EYL59bp6A2hMsjYFnHeDZaUBVow5KimE9KsTjwQfsSPMGw?e=LUjHsy), which contains 1800 samples of various tree skeletons.
 If you need the latest version dataset (ver: 20230416), please feel free to write to us about your affiliation and purpose.
 
-**Dataset Generator:** We developed a series of software to help us synthesize diverse high-quality 3D tree models from scratch or real-world data modalities. Please go to [超链文字](#jump) to download my software. You can freely synthesize your own dataset using these tools.
+**Dataset Generator:** We have developed a series of software in advance to help us synthesize diverse high-quality 3D tree models from scratch or real-world data modalities. Please check these two links to download my software: <a href="#tool1">[Tool-1: Auto Gen]</a> and <a href="#tool2">[Tool-2: Gen from Real-data]</a> . You can freely play with these tools to generate new 3D tree models.
 
 ## (a) Basic Information on Our Algorithm for Dataset Creation.
 
@@ -59,9 +59,9 @@ Considering that the Parametric L-system is not the main focus of our paper, and
 <br/>
 
 
-
+<a id="tool1"/>
 ## (b) [My Software 1] Automatic Tree Dataset Generator.
-<span id="jump">跳转内容目标</span>
+
 :hearts: We also provided **our software** that we developed for automatically generating the 3D tree models. This is a clean version tool and you can use it to easily get different 3D tree variants of a specifed species.
 
 - **Download Link:** Please download our tool (light-weight version) under this **[Folder](https://github.com/RyuZhihao123/CHITreeProject/tree/main/TreeDatasetGenerator)** **(You need download the entire folder)**.
@@ -85,7 +85,7 @@ Considering that the Parametric L-system is not the main focus of our paper, and
 
 
 
-
+<a id="tool2"/>
 ## (c) [My Software 2] Point-cloud based 3D Tree Reconstruction.
 
 :hearts: In addition to the automatic generation of tree data, **our paper also includes some real-world trees in our dataset.** For example, we reconstructed some 3D tree models from **scanned 3D point clouds**.
