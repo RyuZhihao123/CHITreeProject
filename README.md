@@ -9,7 +9,7 @@ This is the supplemental material for the paper "DeepTreeSketch: Neural Graph Pr
 📙 **Paper:** [[PDF]](https://drive.google.com/file/d/1hyoL_i8CPeNgi1NJd1Ay5osbsw-mATt9/view?usp=drive_link).
 
 In this repository, we provided additional information on the tree **dataset**, as well as the **softwares that we developed for automatically generating the 3D tree models for network training**.
-If you need the latest version dataset please feel free to write to us about your affiliation and purpose.
+
 
 
 
@@ -19,7 +19,7 @@ In the very beginning, we implemented a comprehensive **Parametric l-system algo
 This algorithm contributes the majority of our training set, while the rest are the real-world trees reconstructed from point clouds and images.
 
 **Dataset Link:** Please download the dataset of tree skeletons through this [[link (ver: 20220509)]](https://univtokyo-my.sharepoint.com/:u:/g/personal/1487479010_utac_u-tokyo_ac_jp/EYL59bp6A2hMsjYFnHeDZaUBVow5KimE9KsTjwQfsSPMGw?e=LUjHsy).
-
+If you need the latest version dataset please feel free to write to us about your affiliation and purpose.
 
 ## (a) Basic Information on Our Algorithm for Dataset Creation.
 
