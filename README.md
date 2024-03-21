@@ -74,9 +74,9 @@ Considering that the Parametric L-system is not the main focus of our paper, and
 
 - **Usage:**
   - Double click the **``Tree_Dataset_Generator.exe``** to run this problem.
-  - You can re-generate a new random tree model by simply pressing the button **``Get New Tree``**.
+  - You can re-generate a new random tree model by simply pressing the button **``Get New Tree``**. <a id="tool2"/>
   - Also you can change the tree species through the ComboBox (droplist).
-<a id="tool2"/>
+
 
 
 <div align=center>
