@@ -18,8 +18,8 @@ In this repository, we provided additional information on the tree **dataset**, 
 In the very beginning, we implemented a comprehensive **Parametric l-system algorithm** for creating diverse high-quality 3D tree models automatically as the training dataset. 
 This algorithm contributes the majority of our training set, while the rest are the real-world trees reconstructed from point clouds and images.
 
-**Dataset Link:** Please download the dataset of tree skeletons through this [[link (ver: 20220509)]](https://univtokyo-my.sharepoint.com/:u:/g/personal/1487479010_utac_u-tokyo_ac_jp/EYL59bp6A2hMsjYFnHeDZaUBVow5KimE9KsTjwQfsSPMGw?e=LUjHsy).
-If you need the latest version dataset please feel free to write to us about your affiliation and purpose.
+**Dataset Link:** Please download the experimental dataset through this [[link (version: 20220509)]](https://univtokyo-my.sharepoint.com/:u:/g/personal/1487479010_utac_u-tokyo_ac_jp/EYL59bp6A2hMsjYFnHeDZaUBVow5KimE9KsTjwQfsSPMGw?e=LUjHsy), which contains 1800 samples of various tree skeletons.
+If you need the latest version dataset (ver: 20230416), please feel free to write to us about your affiliation and purpose.
 
 ## (a) Basic Information on Our Algorithm for Dataset Creation.
 
