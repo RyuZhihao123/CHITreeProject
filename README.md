@@ -56,14 +56,14 @@ Considering that the Parametric L-system is not the main focus of our paper, and
 [[Sun et al. 09]](https://www.researchgate.net/publication/216337877_Intelligent_Tree_Modeling_Based_on_L-system) 
 [[Lee et al. 23]](https://dl.acm.org/doi/full/10.1145/3627101?casa_token=VqUTDXPJQSsAAAAA%3A2D6naUDWtbzLoSAaVBqApxomg1W_MQ0gEagUY7c30HFNU8Tiua9iYI1N1RRhpf8E3t7vvF1OsSmE5w)
 [[Prusinkiewicz et al. 12]](https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=pjH7e8IAAAAJ&citation_for_view=pjH7e8IAAAAJ:TIZ-Mc8IlK0C) 
-<br/>
+<br/>  <a id="tool1"/>
 
 
 
 
 ## (b) [My Software 1] Automatic Tree Dataset Generator.
 
-:hearts: We also provided **our software** that we developed for automatically generating the 3D tree models. This is a clean version tool and you can use it to easily get different 3D tree variants of a specifed species. <a id="tool1"/>
+:hearts: We also provided **our software** that we developed for automatically generating the 3D tree models. This is a clean version tool and you can use it to easily get different 3D tree variants of a specifed species.
 
 - **Download Link:** Please download our tool (light-weight version) under this **[Folder](https://github.com/RyuZhihao123/CHITreeProject/tree/main/TreeDatasetGenerator)** **(You need download the entire folder)**.
 
@@ -83,7 +83,7 @@ Considering that the Parametric L-system is not the main focus of our paper, and
   <img src="https://github.com/RyuZhihao123/CHITreeProject/blob/main/TreeDatasetGenerator/dataset_generator.png" width = "330" alt="ack" align=center />
   <br/><center><b>Fig. 2.</b> The software we developed for automatically generating a large number of 3D tree models.</center>
 </div>
-
+<a id="tool2"/>
 
 
 
@@ -91,7 +91,7 @@ Considering that the Parametric L-system is not the main focus of our paper, and
 ## (c) [My Software 2] Point-cloud based 3D Tree Reconstruction.
 
 :hearts: In addition to the automatic generation of tree data, **our paper also includes some real-world trees in our dataset.** For example, we reconstructed some 3D tree models from **scanned 3D point clouds**.
-<a id="tool2"/>
+
 <div align=center>
 <img src="https://github.com/RyuZhihao123/SVDTree/blob/main/Fig_0.png" width = "900" alt="ack" align=center />
 </div>
