@@ -47,7 +47,7 @@ The algorithm works as a parallel rewriting system to recursively expand each sy
 We can obtain any number of different tree variants of the same species by adjusting parameters and randomly selecting the production rules per iteration.
 
 Nowadays, due to the strong capability of parametric L-system, this algorithm has become one of the most popular approach to generate realistic 3D tree models for games or movies. 
-And it has formed a huge algorithm set that contains many variants with unique features.
+And it has formed a huge algorithm set that contains many variants with unique features.  <a id="tool1"/>
 
 Considering that the Parametric L-system is not the main focus of our paper, and is a quite complicated algorithm framework that cannot be briefly summarized in a short manner, please refer to these relevant papers or articles for more details on its mechanism: 
 [[Wikipedia: L-system]](https://en.wikipedia.org/wiki/L-system)
@@ -56,7 +56,7 @@ Considering that the Parametric L-system is not the main focus of our paper, and
 [[Sun et al. 09]](https://www.researchgate.net/publication/216337877_Intelligent_Tree_Modeling_Based_on_L-system) 
 [[Lee et al. 23]](https://dl.acm.org/doi/full/10.1145/3627101?casa_token=VqUTDXPJQSsAAAAA%3A2D6naUDWtbzLoSAaVBqApxomg1W_MQ0gEagUY7c30HFNU8Tiua9iYI1N1RRhpf8E3t7vvF1OsSmE5w)
 [[Prusinkiewicz et al. 12]](https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=pjH7e8IAAAAJ&citation_for_view=pjH7e8IAAAAJ:TIZ-Mc8IlK0C) 
-<br/>  <a id="tool1"/>
+<br/> 
 
 
 
@@ -76,14 +76,14 @@ Considering that the Parametric L-system is not the main focus of our paper, and
   - Double click the **``Tree_Dataset_Generator.exe``** to run this problem.
   - You can re-generate a new random tree model by simply pressing the button **``Get New Tree``**.
   - Also you can change the tree species through the ComboBox (droplist).
-
+<a id="tool2"/>
 
 
 <div align=center>
   <img src="https://github.com/RyuZhihao123/CHITreeProject/blob/main/TreeDatasetGenerator/dataset_generator.png" width = "330" alt="ack" align=center />
   <br/><center><b>Fig. 2.</b> The software we developed for automatically generating a large number of 3D tree models.</center>
 </div>
-<a id="tool2"/>
+
 
 
 
