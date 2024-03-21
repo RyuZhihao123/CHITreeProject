@@ -21,7 +21,7 @@ This algorithm contributes the majority of our training set, while the rest are 
 **Dataset Link:** Please download the experimental dataset through this [[link (version: 20220509)]](https://univtokyo-my.sharepoint.com/:u:/g/personal/1487479010_utac_u-tokyo_ac_jp/EYL59bp6A2hMsjYFnHeDZaUBVow5KimE9KsTjwQfsSPMGw?e=LUjHsy), which contains 1800 samples of various tree skeletons.
 If you need the latest version dataset (ver: 20230416), please feel free to write to us about your affiliation and purpose.
 
-**Dataset Generator:** We have developed a series of software in advance to help us synthesize diverse high-quality 3D tree models from scratch or real-world data modalities. Please check these two links to download my software: <a href="#tool1">[Tool-1: Auto Gen]</a> and <a href="#tool2">[Tool-2: Gen from Real-data]</a> . You can freely play with these tools to generate new 3D tree models.
+**Dataset Generator:** We have developed a series of software in advance to help us synthesize diverse high-quality 3D tree models from scratch or real-world data. Please download my software from: <a href="#tool1">[Tool-1: Auto Gen]</a> and <a href="#tool2">[Tool-2: Gen from Real-data]</a>. You can freely play with these tools to generate new 3D tree models.
 
 ## (a) Basic Information on Our Algorithm for Dataset Creation.
 
