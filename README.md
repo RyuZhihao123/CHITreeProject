@@ -8,7 +8,9 @@ This is the site for the paper "DeepTreeSketch: Neural Graph Prediction for Fait
 
 📙 **Paper:** [[Paper PDF]](https://drive.google.com/file/d/1hyoL_i8CPeNgi1NJd1Ay5osbsw-mATt9/view?usp=drive_link).
 
-In this repository, (1) we uploaded our **UI system for 3D tree sketching** (Please go to <a href="#Chapter2">[Chapter 2]</a>), and (2) provided additional information on the **dataset** as well as the **corresponding softwares that we developed for automatically generating the 3D tree models for network training** (Please go to <a href="#Chapter1">[Chapter 1]</a>).
+This repository contains the following stuffs:
+- We uploaded our **Software Client for Sketching-based Tree Modeling** (Please go to <a href="#Chapter2">[Chapter 2]</a>).
+- We also provided additional information on the **dataset** as well as the **corresponding softwares that we developed for automatically generating the 3D tree models for network training** (Please go to <a href="#Chapter1">[Chapter 1]</a>).
 
 
 
