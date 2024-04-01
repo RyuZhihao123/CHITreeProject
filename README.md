@@ -1,27 +1,28 @@
 # CHI24_TreeProject
 
 
-This is the supplemental material for the paper "DeepTreeSketch: Neural Graph Prediction for Faithful 3D Tree Modeling from Sketches. **[Zhihao Liu](https://ryuzhihao123.github.io/)**, et al., **ACM CHI**, 2024". 
+This is the site for the paper "DeepTreeSketch: Neural Graph Prediction for Faithful 3D Tree Modeling from Sketches. **[Zhihao Liu](https://ryuzhihao123.github.io/)**, et al., **ACM CHI**, 2024". 
 
 🎦 **Demo Videos:** [[Preview Video (30s)]](https://drive.google.com/file/d/1Kvj47Ckju43i9IpJ6OjWzE2ZkxVbOFTX/view?usp=sharing)
 [[Full Video (3min)]](https://drive.google.com/file/d/1YNooKZMfFbwdyMv2JzuzhmUu7tJSMahL/view?usp=sharing).
 
 📙 **Paper:** [[Paper PDF]](https://drive.google.com/file/d/1hyoL_i8CPeNgi1NJd1Ay5osbsw-mATt9/view?usp=drive_link).
 
-In this repository, we provided additional information on the tree **dataset**, as well as the **softwares that we developed for automatically generating the 3D tree models for network training**.
-
+In this repository, (1) we uploaded our **UI system for 3D tree sketching** (Please go to <a href="#Chapter2">[Chapter 2]</a>), and (2) provided additional information on the **dataset** as well as the **corresponding softwares that we developed for automatically generating the 3D tree models for network training** (Please go to <a href="#Chapter1">[Chapter 1]</a>).
 
 
 
 
 # 1. Tree Dataset.
+
+<a id="Chapter1"/></a>
 In the very beginning, we implemented a comprehensive **Parametric l-system algorithm** for creating diverse high-quality 3D tree models automatically as the training dataset. 
 This algorithm contributes the majority of our training set, while the rest are the real-world trees reconstructed from point clouds and images.
 
-**Dataset Link:** Please download the experimental dataset through this [[link (version: 20220509)]](https://univtokyo-my.sharepoint.com/:u:/g/personal/1487479010_utac_u-tokyo_ac_jp/EYL59bp6A2hMsjYFnHeDZaUBVow5KimE9KsTjwQfsSPMGw?e=LUjHsy), which contains 1800 samples of various tree skeletons.
+- **Dataset Link:** Please download the experimental dataset through this [[link (version: 20220509)]](https://univtokyo-my.sharepoint.com/:u:/g/personal/1487479010_utac_u-tokyo_ac_jp/EYL59bp6A2hMsjYFnHeDZaUBVow5KimE9KsTjwQfsSPMGw?e=LUjHsy), which contains 1800 samples of various tree skeletons.
 If you need the latest version dataset (ver: 20230416), please feel free to write to us about your affiliation and purpose.
 
-**Dataset Generator:** We have developed a series of software in advance to help us synthesize diverse high-quality 3D tree models from scratch or real-world data. Please download my software from: <a href="#tool1">[Tool-1: Auto Gen]</a> and <a href="#tool2">[Tool-2: Gen from Real-data]</a>. You can freely play with these tools to generate new 3D tree models.
+- **Dataset Generator:** We have developed a series of software in advance to help us synthesize diverse high-quality 3D tree models from scratch or real-world data. Please download my software from: <a href="#tool1">[Tool-1: Auto Gen]</a> and <a href="#tool2">[Tool-2: Gen from Real-data]</a>. You can freely play with these tools to generate new 3D tree models.
 
 ## (a) Basic Information on Our Algorithm for Dataset Creation.
 
@@ -174,14 +175,24 @@ Note that, our proposed TGP-Net doesn't use these leaf information in practice. 
 
 
 # 2. Online Sketching System.
-
-Our current system is developed with C++ (User interface) and Python (Local Neural Network Server), so it is inconvenient to configure and install.
-Therefore, as a bonus, we are now working on a **Online-version software** (a web version implemented with Javascript + WebGL) as well, which will enable people from all over the world to freely explore our modeling system using their browser at any time. 
-Thus, we are currently trying to configure our neural network (TGP-Net) to **permanently** run on a GPU workstation with public accessible IP address. The web system will be launched once it's done.
-
+<a id="Chapter2"/></a>
 
 <div align=center>
 <img src="https://github.com/RyuZhihao123/CHI_DeepTreeSketch/blob/main/Figures/2-system.png" width = "400" alt="ack" align=center />
 </div>
+
+- **Download Link:** Please check this **[Folder](https://github.com/RyuZhihao123/CHITreeProject/tree/main/TreeFromPointClouds)** to download our developed software **(You need download the entire folder)**.
+
+- **Requirement & Usage:**
+  - This software is only compiled for **Win10+**. The configuration is the same as the above software 1.
+  - After downloading the entire **[Folder](https://github.com/RyuZhihao123/CHITreeProject/tree/main/DeepTreeSketch_Client)**, you can directly run the program by double clicking the **``DeepTreeDrawing_Client.exe``**.
+  - ❗**Note that,** since this is the client for our sketching system, you also need to connect to ``our server`` that runs the neural network (TGP-Net) before using our software. However, since the TGP-Net Server is currently only configured on our personal computer which might be shut down, the connection may sometimes not be established (you may receive some warnings in the software). **In this case, please directly contact me to start the server for you when you need to use our sketching software.**
+
+- **Another offline software for sketch-based tree modeling:**
+  - When I was an undergraduate student, I also developed another software for sketch-based 3D tree modeling (please see this [Github Repository](https://github.com/RyuZhihao123/TreeDesigner17)). This is another totally different algorithm.
+    **But this software can be used offline, which means you can try it first if you urgently need to obtain some 3D tree models but find the server is not running.** However, the quality of this software is definitely below our DeepTreeSketch. Thus, if you need high-quality tree models, please still try the DeepTreeSketch. 
+
+
+
 
 
