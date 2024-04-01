@@ -164,7 +164,7 @@ Since our proposed neural network (TGP-Net) is designed to process the tree skel
     - ``radius``: The branch radius at this node.
     - ``branch_id``: The index of the long branch that this node belongs to. (not used in this project.)
 
-
+<a id="Chapter2"/></a>
 - The data file also additionally contains the information on leaves.
 The rows with **``type="leaf"``** are all the leaves of this tree, recording its orientation and other attributes. 
 Note that, our proposed TGP-Net doesn't use these leaf information in practice. But you can freely use them in your own project if needed. ^_^
@@ -177,13 +177,13 @@ Note that, our proposed TGP-Net doesn't use these leaf information in practice. 
 
 
 # 2. DeepTreeSketch Client.
-<a id="Chapter2"/></a>
+
 
 <div align=center>
 <img src="https://github.com/RyuZhihao123/CHI_DeepTreeSketch/blob/main/Figures/2-system.png" width = "400" alt="ack" align=center />
 </div>
 
-- **Download Link:** Please check this **[Folder](https://github.com/RyuZhihao123/CHITreeProject/tree/main/TreeFromPointClouds)** to download our developed software **(You need download the entire folder)**.
+- **Download Link:** Please check this **[Folder](https://github.com/RyuZhihao123/CHITreeProject/tree/main/User_DeepTreeSketch_Client)** to download our developed software **(You need download the entire folder)**.
 
 - **Requirement & Usage:**
   - This software is only compiled for **Win10+**. The configuration is the same as the above software 1.
