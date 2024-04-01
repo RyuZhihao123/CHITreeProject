@@ -174,7 +174,7 @@ Note that, our proposed TGP-Net doesn't use these leaf information in practice. 
 
 
 
-# 2. Online Sketching System.
+# 2. DeepTreeSketch Client.
 <a id="Chapter2"/></a>
 
 <div align=center>
@@ -185,12 +185,12 @@ Note that, our proposed TGP-Net doesn't use these leaf information in practice. 
 
 - **Requirement & Usage:**
   - This software is only compiled for **Win10+**. The configuration is the same as the above software 1.
-  - After downloading the entire **[Folder](https://github.com/RyuZhihao123/CHITreeProject/tree/main/DeepTreeSketch_Client)**, you can directly run the program by double clicking the **``DeepTreeDrawing_Client.exe``**.
-  - ❗**Note that,** since this is the client for our sketching system, you also need to connect to ``our server`` that runs the neural network (TGP-Net) before using our software. However, since the TGP-Net Server is currently only configured on our personal computer which might be shut down, the connection may sometimes not be established (you may receive some warnings in the software). **In this case, please directly contact me to start the server for you when you need to use our sketching software.**
+  - After downloading the entire **[Folder](https://github.com/RyuZhihao123/CHITreeProject/tree/main/Sys_DeepTreeSketch_Client)**, you can directly run the program by double clicking the **``DeepTreeDrawing_Client.exe``**.
+  - ❗**Note that,** since this is the client for our sketching system, you also need to connect to ``our server`` that runs the neural network (TGP-Net) before using our software. **<ins>You must use it with internet connection.</ins>** However, since the TGP-Net Server is currently only configured on our personal computer which might be shut down, the connection may sometimes not be established (you may receive some warnings in the software). **In this case, please directly contact me to start the server for you when you need to use our sketching software.**
 
-- **Another offline software for sketch-based tree modeling:**
+- **(Bonus) Another offline software for sketch-based tree modeling:**
   - When I was an undergraduate student, I also developed another software for sketch-based 3D tree modeling (please see this [Github Repository](https://github.com/RyuZhihao123/TreeDesigner17)). This is another totally different algorithm.
-    **But this software can be used offline, which means you can try it first if you urgently need to obtain some 3D tree models but find the server is not running.** However, the quality of this software is definitely below our DeepTreeSketch. Thus, if you need high-quality tree models, please still try the DeepTreeSketch. 
+    **But the advantage is this software can be used offline, which means you can try it first if you urgently need to obtain some 3D tree models but find the server is not running.** However, the quality of this software is definitely below our DeepTreeSketch. Thus, if you need high-quality tree models, please still try the DeepTreeSketch. 
 
 
 
