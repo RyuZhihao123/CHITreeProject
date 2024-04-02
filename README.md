@@ -184,7 +184,10 @@ Note that, our proposed TGP-Net doesn't use these leaf information in practice. 
 <img src="https://github.com/RyuZhihao123/CHI_DeepTreeSketch/blob/main/Figures/2-system.png" width = "400" alt="ack" align=center />
 </div>
 
-- **Download Link:** Please check this **[Folder](https://github.com/RyuZhihao123/CHITreeProject/tree/main/User_DeepTreeSketch_Client)** to download our developed software **(You need download the entire folder)**.
+- ⏬ **Download Link:** Please check this **[Folder](https://github.com/RyuZhihao123/CHITreeProject/tree/main/User_DeepTreeSketch_Client)** to download our developed software **(You need download the entire folder)**.
+
+- 🎦 **Demo Videos:** [[Preview Video (30s)]](https://drive.google.com/file/d/1Kvj47Ckju43i9IpJ6OjWzE2ZkxVbOFTX/view?usp=sharing)
+[[Full Video (3min)]](https://drive.google.com/file/d/1YNooKZMfFbwdyMv2JzuzhmUu7tJSMahL/view?usp=sharing).
 
 - **Requirement & Usage:**
   - This software is only compiled for **Win10+**. The configuration is the same as the above software 1 (i.e., Visual Studio 2019+/Qt5.8+, CMake, and OpenGL for 3D visualization).
@@ -192,8 +195,7 @@ Note that, our proposed TGP-Net doesn't use these leaf information in practice. 
   - ❗(Regarding Server Connection): Note that, since this is the user client for our sketching system, you also need to connect to **our listening server** that runs the neural network (TGP-Net) to handle the prediction request before using our software. **<ins>Thus, you MUST use this client with internet connection.</ins>** Please also note, since the TGP-Net Listening Server is currently only configured on our personal computer which might be sometimes shut down, the connection may not be established (if so, you may see some warnings in the software). **<ins>In the case of failing to build the server connection, please feel free to contact me to start the server for you when you need to use our sketching software.</ins>**
  
   
-- 🎦 **Demo Videos:** [[Preview Video (30s)]](https://drive.google.com/file/d/1Kvj47Ckju43i9IpJ6OjWzE2ZkxVbOFTX/view?usp=sharing)
-[[Full Video (3min)]](https://drive.google.com/file/d/1YNooKZMfFbwdyMv2JzuzhmUu7tJSMahL/view?usp=sharing).
+
   
 
 - **(Bonus Backup) Another offline software for sketch-based 3D tree modeling:**
