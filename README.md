@@ -65,7 +65,7 @@ Considering that the Parametric L-system is not the main focus of our paper, and
 
 
 
-## (b) [My Software 1] Automatic Tree Dataset Generator.
+## (b) [My Dataset Software 1] Automatic Tree Dataset Generator.
 
 :hearts: We also provided **our software** that we developed for automatically generating the 3D tree models. This is a clean version tool and you can use it to easily get different 3D tree variants of a specifed species.
 
@@ -92,7 +92,7 @@ Considering that the Parametric L-system is not the main focus of our paper, and
 
 
 
-## (c) [My Software 2] Point-cloud based 3D Tree Reconstruction.
+## (c) [My Dataset Software 2] Point-cloud based 3D Tree Reconstruction.
 
 :hearts: In addition to the automatic generation of tree data, **our paper also includes some real-world trees in our dataset.** For example, we reconstructed some 3D tree models from **scanned 3D point clouds**.
 
@@ -189,11 +189,10 @@ Note that, our proposed TGP-Net doesn't use these leaf information in practice. 
 - **Requirement & Usage:**
   - This software is only compiled for **Win10+**. The configuration is the same as the above software 1.
   - After downloading the entire **[Folder](https://github.com/RyuZhihao123/CHITreeProject/tree/main/User_DeepTreeSketch_Client)**, you can directly run the program by double clicking the **``DeepTreeDrawing_Client.exe``**.
-  - ❗**Note that,** since this is the client for our sketching system, you also need to connect to ``our server`` that runs the neural network (TGP-Net) before using our software. **<ins>You must use it with internet connection.</ins>** However, since the TGP-Net Server is currently only configured on our personal computer which might be shut down, the connection may sometimes not be established (you may receive some warnings in the software if so). <ins>**In this case, please directly contact me to start the server for you when you need to use our sketching software.**</ins>
+  - ❗**Note that,** since this is the client for our sketching system, you also need to connect to **our server** that runs the neural network (TGP-Net) before using our software. **<ins>You must use it with internet connection.</ins>** However, since the TGP-Net Server is currently only configured on our personal computer which might be sometimes shut down, the connection may not be established (if so, you may see some warnings in the software). <ins>**In this case, please feel free to contact me to start the server for you when you need to use our sketching software.**</ins>
 
-- **(Bonus) Another offline software for sketch-based tree modeling:**
-  - When I was an undergraduate student, I also developed another software for sketch-based 3D tree modeling (please see this [Github Repository](https://github.com/RyuZhihao123/TreeDesigner17)). This is another totally different algorithm.
-    **But the advantage of this software is that it can be used offline and without any configuration, which means you can try it first if you urgently need to obtain some 3D tree models but find the server is not running.** However, the quality of this software is definitely below our DeepTreeSketch. Thus, if you need high-quality tree models, please still try the DeepTreeSketch. 
+- **(Bonus Backup) Another offline software for sketch-based 3D tree modeling:**
+  - When I was an undergraduate student, I have also developed another software for sketch-based 3D tree modeling (please see this **[Github Repository](https://github.com/RyuZhihao123/TreeDesigner17)**). Even though it is based on another totally different algorithm, **the advantage of this software is that it can be used offline and without any configuration. Therefore, if you urgently need to obtain some 3D tree models but find the server is not running, you can try this old software first.** However, the quality of this software is definitely below our new DeepTreeSketch. Thus, if you need more high-quality tree models, please still try the DeepTreeSketch. 
 
 
 
