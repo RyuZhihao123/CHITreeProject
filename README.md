@@ -187,7 +187,7 @@ Note that, our proposed TGP-Net doesn't use these leaf information in practice. 
 - **Download Link:** Please check this **[Folder](https://github.com/RyuZhihao123/CHITreeProject/tree/main/User_DeepTreeSketch_Client)** to download our developed software **(You need download the entire folder)**.
 
 - **Requirement & Usage:**
-  - This software is only compiled for **Win10+**. The configuration is the same as the above software 1.
+  - This software is only compiled for **Win10+**. The configuration is the same as the above software 1 (i.e., Visual Studio 2019+/Qt5.8+, CMake, and OpenGL for 3D visualization).
   - After downloading the entire **[Folder](https://github.com/RyuZhihao123/CHITreeProject/tree/main/User_DeepTreeSketch_Client)**, you can directly run the program by double clicking the **``DeepTreeDrawing_Client.exe``**.
   - ❗**Note that,** since this is the user client for our sketching system, you also need to connect to **our listening server** that runs the neural network and handles prediction request (TGP-Net) before using our software. **<ins>You must use it with internet connection.</ins>** However, since the TGP-Net Listening Server is currently only configured on our personal computer which might be sometimes shut down, the connection may not be established (if so, you may see some warnings in the software). <ins>**In this case, please feel free to contact me to start the server for you when you need to use our sketching software.**</ins>
 
