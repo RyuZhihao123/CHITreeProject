@@ -199,7 +199,7 @@ Note that, our proposed TGP-Net doesn't use these leaf information in practice. 
   
 
 - **(Bonus Backup) Another offline software for sketch-based 3D tree modeling:**
-  - When I was an undergraduate student, I have also developed another software for sketch-based 3D tree modeling (please see this **[Github Repository](https://github.com/RyuZhihao123/TreeDesigner17)**). Even though it is based on another totally different algorithm, **the advantage of this software is that it can be used offline and without any configuration. Therefore, if you urgently need to obtain some 3D tree models but find the server is not running, you can try this old software first.** However, the quality of this software is definitely below our new DeepTreeSketch. Thus, if you need more high-quality tree models, please still try the DeepTreeSketch. 
+  - When I was an undergraduate student, I have also developed another software for sketch-based 3D tree modeling (please see this **[Github Repository](https://github.com/RyuZhihao123/TreeDesigner17)**). Even though it is based on another totally different algorithm, **the advantage of this software is that it can be used offline and without any configuration. Therefore, if you urgently need to obtain some 3D tree models but find the server is not running, you could try this old software first.** According to my information, many designers have used this tool to design 3D trees in their projects. However, the quality of this old software is definitely below our new DeepTreeSketch. Thus, if you need more high-quality tree models, please still try the DeepTreeSketch. 
 
 
 
