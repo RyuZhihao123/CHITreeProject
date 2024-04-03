@@ -182,7 +182,7 @@ Note that, our proposed TGP-Net doesn't use these leaf information in practice. 
 
 <div align=center>
   <img src="https://github.com/RyuZhihao123/CHI_DeepTreeSketch/blob/main/Figures/2-system.png" width = "400" alt="ack" align=center />
-  <br/><center><b>Fig. 4. The user client of our DeepTreeSketch system.</b> A.</center>
+  <br/><center><b>Fig. 4. The user client of our DeepTreeSketch system.</b></center>
 </div>
 
 - ⏬ **Download Link:** Please check this **[Folder](https://github.com/RyuZhihao123/CHITreeProject/tree/main/User_DeepTreeSketch_Client)** to download our developed software **(You need download the entire folder)**.
