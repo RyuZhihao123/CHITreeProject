@@ -197,7 +197,7 @@ Note that, our proposed TGP-Net doesn't use these leaf information in practice. 
 - ❗**Regarding Server Connection**: After downloading the client of our sketching system, you also need to connect to **our listening server** that runs the neural network (TGP-Net) to handle the prediction request before using our software. **<ins>Thus, you MUST ensure to use our software client with internet connection.</ins>** But please understand that, since the TGP-Net Listening Server is currently configured on my own personal computer which might be sometimes shut down, the connection may not be established (if so, you may see some warnings in the software). **<ins>Therefore, in the case of failing to establish the server connection, you can try the followings:</ins>**
   - (a) Please directly contact me to re-start the server for you when you need to use our sketching software.
   - (b) If our time is hard to coodinate: You can save your own drawn sketches in your computer by pressing the ``Save`` button in the ``File Menu`` on the top-right corner. Then, directly email to me with your sketch files (*.txt format). I will return the results to you immediately once I see your email.
-  - (c) Try my another Offline software for sketch-based tree modeling below. This software can be directly used offline. But it's consistency and quality is kind of below our new DeepTreeSketch.
+  - (c) Try my another Offline software for sketch-based tree modeling below. This old software can be directly used offline since it's based on another different algorithm. But it's consistency and quality is kind of below our new DeepTreeSketch.
 
 
 - **(Bonus Alternative) Another Offline software for sketch-based 3D tree modeling:**
