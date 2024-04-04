@@ -14,8 +14,6 @@ This repository contains the following stuffs:
 - We also provided additional information on the **dataset** as well as the **corresponding softwares that we developed for automatically generating the 3D tree models for network training** (Please go to <a href="#Chapter1">[Chapter 1]</a>).
 
 
-
-
 # 1. Tree Dataset.
 
 
