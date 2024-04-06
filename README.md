@@ -205,7 +205,7 @@ Note that, our proposed TGP-Net doesn't use these leaf information in practice. 
 
 <div align=center>
 <img src="https://github.com/RyuZhihao123/TreeDesigner17/blob/master/picA.png" width = "320" alt="ack" align=center />
-<br/><center><b>Fig. 5.</b> Another alternative software I developed many years ago.<br/> Although its quality and consistency are <b>Not</b> as good as our new system, this old tool can be used offline.</center>
+<br/><center><b>Fig. 5.</b> Another alternative software I developed many years ago.<br/> Its quality and consistency are <b>NOT as good as</b> our new system, <b>but this old tool can be directly used offline.</b></center>
 </div>
 
 
