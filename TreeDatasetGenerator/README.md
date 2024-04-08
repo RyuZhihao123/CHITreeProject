@@ -1,4 +1,4 @@
-## My Software - "Tree Dataset Generator".
+## My Software - "Tree Dataset Generator (Auto-Gen)".
 
 :hearts: We also provided **our software** that we developed for automatically generating the 3D tree models. This is a clean version tool and you can use it to easily get different 3D tree variants of a specifed species.
 
