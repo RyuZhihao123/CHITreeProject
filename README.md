@@ -29,7 +29,7 @@ If you need the latest version dataset (ver: 20230416), please feel free to writ
 
 ## (a) Foreword about Our Dataset Creation Algorithms.
 
-:hearts: Note that, apart from our CHI submission, <ins>**My Implemented Algorithm has also been used by several top-tier SIGGRAPH-level Papers</ins> to help them generate the training dataset of 3D trees.** For example: 
+:hearts: Note that, apart from our CHI submission, <ins>**My implemented algorithm has also been used by several top-tier SIGGRAPH-level Papers</ins> to help them generate the training dataset of 3D trees.** For example: 
 
 
 > **TreePartNet: Neural Decomposition of Point Clouds for 3D Tree Reconstruction.**
@@ -96,14 +96,16 @@ Considering that the Parametric L-system is not the main focus of our paper, and
 </div>
 
 
-- **Download Link:** Please check this **[Folder](https://github.com/RyuZhihao123/CHITreeProject/tree/main/TreeFromPointClouds)** to download our developed software **(You need download the entire folder)**.
+- ⬇️ **Download Link:** Please check this **[Folder](https://github.com/RyuZhihao123/CHITreeProject/tree/main/TreeFromPointClouds)** to download our developed software **(You need download the entire folder)**.
 
-- **Requirement & Usage:**
+- 📺 **Demo Video:** Please watch this **[[demo video]](https://drive.google.com/file/d/1htelf6xldyFYocqnZ6rtEZxSvwj3Gy1I/view?usp=sharing)** to see the intructions of the usage of my software.
+
+- 📁 **Requirement & Usage:**
   - This software is only compiled for **Win10+**. The configuration is the same as the above software 1.
   - After downloading the entire **[Folder](https://github.com/RyuZhihao123/CHITreeProject/tree/main/TreeFromPointClouds)**, you can directly run the program by double clicking the **``TreeFromPoint.exe``**.
   - After activating the executable program, you can click the button "加载点云" to load a point cloud file. And then sequentially click the buttons from "(1)确定主干区域" to "(7)优化".
 
-- **Test Data of a 3D Point Cloud:**
+- ⭐ **Test Data of a 3D Point Cloud:**
   - Please download **this EXAMPLE 3D point cloud file [[xyz file](https://github.com/RyuZhihao123/CHITreeProject/blob/main/Tree1_input.xyz)]** to quickly have a try with our software.
   - You can easily use your own collected 3D point clouds in our software as well, as long as you have reformated them beforehand according to the form of the above example point cloud file.
 
@@ -113,7 +115,7 @@ Considering that the Parametric L-system is not the main focus of our paper, and
 <div align=center>
   <img src="https://github.com/RyuZhihao123/SVDTree/blob/main/Fig_UI_1.png" width = "400" alt="ack" title="dasdasdsa title" align=center />
   <img src="https://github.com/RyuZhihao123/SVDTree/blob/main/Fig_UI_3.png" width = "400" alt="ack" title="dasdasdsa title" align=center />
-  <br/><center><b>Fig. 3.</b> The second software we developed for reconstructing real-world trees from 3D point clouds. These tree models were also used in the training dataset.</center>
+  <br/><center><b>Fig. 3.</b> The second software we developed for reconstructing real-world trees from 3D point clouds.<br/>These tree models were also used in the training dataset.</center>
 
 </div>
 <br/>
