@@ -98,7 +98,7 @@ Considering that the Parametric L-system is not the main focus of our paper, and
 
 - ⬇️ **Download Link:** Please check this **[Folder](https://github.com/RyuZhihao123/CHITreeProject/tree/main/TreeFromPointClouds)** to download our developed software **(You need download the entire folder)**.
 
-- 📺 **Demo Video:** Please watch this **[[demo video]](https://drive.google.com/file/d/1htelf6xldyFYocqnZ6rtEZxSvwj3Gy1I/view?usp=sharing)** to see the intructions of the usage of my software.
+- 📺 **Demo Video:** Please first watch this **[[demo video]](https://drive.google.com/file/d/1htelf6xldyFYocqnZ6rtEZxSvwj3Gy1I/view?usp=sharing)** to see the intructions of the usage of my software.
 
 - 📁 **Requirement & Usage:**
   - This software is only compiled for **Win10+**. The configuration is the same as the above software 1.
