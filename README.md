@@ -25,9 +25,9 @@ This algorithm contributes the majority of our training set, while the rest are 
 - **Dataset Link:** Please download the experimental dataset through this [[link (version: 20220509)]](https://univtokyo-my.sharepoint.com/:u:/g/personal/1487479010_utac_u-tokyo_ac_jp/EYL59bp6A2hMsjYFnHeDZaUBVow5KimE9KsTjwQfsSPMGw?e=LUjHsy), which contains 1800 samples of various tree skeletons.
 If you need the latest version dataset (ver: 20230416), please feel free to write to us about your affiliation and purpose.
 
-- **Dataset Generator:** We have developed a series of software in advance to help us synthesize diverse high-quality 3D tree models from scratch or real-world data. **Please download my software for dataset generation from: <a href="#tool1">[Tool-1: Auto Gen]</a> and <a href="#tool2">[Tool-2: Gen from Real-data]</a>.** You can freely play with these tools to generate new 3D tree models.
+- ⭐ **Dataset Generator:** We have developed a series of software in advance to help us synthesize diverse high-quality 3D tree models from scratch or real-world data. **Please download my software for dataset generation from: <a href="#tool1">[Tool-1: Auto Gen]</a> and <a href="#tool2">[Tool-2: Gen from Real-data]</a>.** You can freely play with these tools to generate new 3D tree models.
 
-## (a) Basic Information on Our Algorithm for Dataset Creation.
+## (a) Foreword on Our Algorithm for Dataset Creation.
 
 :hearts: Note that, apart from our CHI submission, <ins>**My Implemented Algorithm** has also been used by several top-tier **SIGGRAPH-level Papers**</ins> to help them generate the training dataset of 3D trees. **For example:** 
 
@@ -42,17 +42,12 @@ Please see their **``Acknowledgement section``** below for some proof that their
 <div align=center>
 <img src="https://github.com/RyuZhihao123/CHI_DeepTreeSketch/blob/main/0-ack.png" width = "700" alt="ack" title="dasdasdsa title" align=center />
 <br/><center><b>Fig. 1. Several SIGGRAPH-level papers <a href="https://dl.acm.org/doi/abs/10.1145/3478513.3480486">[link]</a> also borrowed my tree modeling algorithm to synthesize the 3D tree dataset, because of the strong capability of my implementated system.</b></center>
-<br/><center><b>图1. 除了我们的CHI的提交之外，我们实现的树木建模算法也被一些SIGGRAPH论文(图形学顶会)所借用，用以生成他们所需的3D树木数据集（如上图）。</b></center>
 </div>
 <br/>
 
 **$\bullet$** In this algorithm, each species corresponds to one predefined string-based grammar set (a collection of production rules) which biologically defines a series of self-similar substructures of plants. 
 The algorithm works as a parallel rewriting system to recursively expand each symbol into a longer production rule to iteratively form the tree structures.
 We can obtain any number of different tree variants of the same species by adjusting parameters and randomly selecting the production rules per iteration.
-
-Nowadays, due to the strong capability of parametric L-system, this algorithm has become one of the most popular approach to generate realistic 3D tree models for games or movies. 
-And it has formed a huge algorithm set that contains many variants with unique features.  <a id="tool1"/>
-
 Considering that the Parametric L-system is not the main focus of our paper, and is a quite complicated algorithm framework that cannot be briefly summarized in a short manner, please refer to these relevant papers or articles for more details on its mechanism: 
 [[Wikipedia: L-system]](https://en.wikipedia.org/wiki/L-system)
 [[A Tutorial Video on YouTube]](https://www.youtube.com/watch?v=ps7Mt1y1F48)
@@ -69,14 +64,14 @@ Considering that the Parametric L-system is not the main focus of our paper, and
 
 :hearts: We also provided **our software** that we developed for automatically generating the 3D tree models. This is a clean version tool and you can use it to easily get different 3D tree variants of a specifed species.
 
-- **Download Link:** Please download our tool (light-weight version) under this **[Folder](https://github.com/RyuZhihao123/CHITreeProject/tree/main/TreeDatasetGenerator)** **(You need download the entire folder)**.
+- ⬇️ **Download Link:** Please download our tool (light-weight version) under this **[Folder](https://github.com/RyuZhihao123/CHITreeProject/tree/main/TreeDatasetGenerator)** **(You need download the entire folder)**.
 
-- **Requirement (Configuration):**
+- 💻 **Requirement (Configuration):**
   - Your should install **Visual Studio 2019+** on your PC. **Qt 5.8+** is also an option, but you basically only need one of them.
   - Additionally, we strongly suggest to install **CMake** and **OpenGL** (for 3D visualization) into your system path. Sometimes they are not strictly required because some PC may already have installed them by default. But pre-installation can somehow avoid unexpected compile errors.
   - Note that, this tool is only compiled for **Windows System (win10+)**. *Mac* is currently NOT supported.
 
-- **Usage:**
+- 📁 **Usage:**
   - Double click the **``Tree_Dataset_Generator.exe``** to run this problem.
   - You can re-generate a new random tree model by simply pressing the button **``Get New Tree``**. <a id="tool2"/>
   - Also you can change the tree species through the ComboBox (droplist).
