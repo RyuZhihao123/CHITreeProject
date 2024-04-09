@@ -19,33 +19,33 @@ This repository contains the following stuffs:
 # 1. Tree Dataset.
 
 
-In the very beginning, we implemented a comprehensive **Parametric l-system algorithm** for creating diverse high-quality 3D tree models automatically as the training dataset. 
+In the very beginning, we implemented a comprehensive **Parametric l-system algorithm** ffor creating diverse high-quality 3D tree models automatically as the training dataset. 
 This algorithm contributes the majority of our training set, while the rest are the real-world trees reconstructed from point clouds and images.
 
-- **Dataset Link:** Please download the experimental dataset through this [[link (version: 20220509)]](https://univtokyo-my.sharepoint.com/:u:/g/personal/1487479010_utac_u-tokyo_ac_jp/EYL59bp6A2hMsjYFnHeDZaUBVow5KimE9KsTjwQfsSPMGw?e=LUjHsy), which contains 1800 samples of various tree skeletons.
+- **Dataset Generator:** We have developed a series of software in advance to help us synthesize diverse high-quality 3D tree models from scratch or real-world data. **Please download my software for dataset generation from: <a href="#tool1">[Tool-1: Auto Gen]</a> and <a href="#tool2">[Tool-2: Gen from Real-data]</a>.** You can freely play with these tools to generate new 3D tree models. ⭐ 
+
+- **Dataset Link:** You can also download the experimental dataset through this [[link (version: 20220509)]](https://univtokyo-my.sharepoint.com/:u:/g/personal/1487479010_utac_u-tokyo_ac_jp/EYL59bp6A2hMsjYFnHeDZaUBVow5KimE9KsTjwQfsSPMGw?e=LUjHsy), which contains 1800 samples of various tree skeletons.
 If you need the latest version dataset (ver: 20230416), please feel free to write to us about your affiliation and purpose.
 
-- ⭐ **Dataset Generator:** We have developed a series of software in advance to help us synthesize diverse high-quality 3D tree models from scratch or real-world data. **Please download my software for dataset generation from: <a href="#tool1">[Tool-1: Auto Gen]</a> and <a href="#tool2">[Tool-2: Gen from Real-data]</a>.** You can freely play with these tools to generate new 3D tree models.
+## (a) Foreword about Our Dataset Creation Algorithms.
 
-## (a) Foreword on Our Algorithm for Dataset Creation.
-
-:hearts: Note that, apart from our CHI submission, <ins>**My Implemented Algorithm** has also been used by several top-tier **SIGGRAPH-level Papers**</ins> to help them generate the training dataset of 3D trees. **For example:** 
+:hearts: Note that, apart from our CHI submission, <ins>**My Implemented Algorithm has also been used by several top-tier SIGGRAPH-level Papers</ins> to help them generate the training dataset of 3D trees.** For example: 
 
 
 > **TreePartNet: Neural Decomposition of Point Clouds for 3D Tree Reconstruction.**
 >
-> **SIGGRAPH Asia 2021** (ACM Transactions on Graphics). [[Paper]](https://dl.acm.org/doi/abs/10.1145/3478513.3480486) 
+> **SIGGRAPH 2021** (ACM Transactions on Graphics). [[Paper]](https://dl.acm.org/doi/abs/10.1145/3478513.3480486) 
 
 Please see their **``Acknowledgement section``** below for some proof that their authors used my codes to get training data for their paper:
 <!--${\color{red}\text{Please see their}}$ **``Acknowledgement section``** ${\color{red}\text{for some proof that their authors used my codes or data in their paper:}}$-->
-
+<a id="tool1"/></a>
 <div align=center>
 <img src="https://github.com/RyuZhihao123/CHI_DeepTreeSketch/blob/main/0-ack.png" width = "700" alt="ack" title="dasdasdsa title" align=center />
-<br/><center><b>Fig. 1. Several SIGGRAPH-level papers <a href="https://dl.acm.org/doi/abs/10.1145/3478513.3480486">[link]</a> also borrowed my tree modeling algorithm to synthesize the 3D tree dataset, because of the strong capability of my implementated system.</b></center>
+<br/><center><b>Fig. 1. Several SIGGRAPH-level papers <a href="https://dl.acm.org/doi/abs/10.1145/3478513.3480486">[link]</a> also borrowed my tree modeling algorithm <br/>to synthesize the 3D tree dataset, because of the strong capability of my implementated system.</b></center>
 </div>
 <br/>
-
-**$\bullet$** In this algorithm, each species corresponds to one predefined string-based grammar set (a collection of production rules) which biologically defines a series of self-similar substructures of plants. 
+<!--
+**$\bullet$** In this algorithm, each species corresponds to one predefined string-based grammar set (a collection of production rules) which biologically defines a series of self-similar substructures of plants.  <a id="tool1"/>
 The algorithm works as a parallel rewriting system to recursively expand each symbol into a longer production rule to iteratively form the tree structures.
 We can obtain any number of different tree variants of the same species by adjusting parameters and randomly selecting the production rules per iteration.
 Considering that the Parametric L-system is not the main focus of our paper, and is a quite complicated algorithm framework that cannot be briefly summarized in a short manner, please refer to these relevant papers or articles for more details on its mechanism: 
@@ -56,13 +56,13 @@ Considering that the Parametric L-system is not the main focus of our paper, and
 [[Lee et al. 23]](https://dl.acm.org/doi/full/10.1145/3627101?casa_token=VqUTDXPJQSsAAAAA%3A2D6naUDWtbzLoSAaVBqApxomg1W_MQ0gEagUY7c30HFNU8Tiua9iYI1N1RRhpf8E3t7vvF1OsSmE5w)
 [[Prusinkiewicz et al. 12]](https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=pjH7e8IAAAAJ&citation_for_view=pjH7e8IAAAAJ:TIZ-Mc8IlK0C) 
 <br/> 
-
+-->
 
 
 
 ## (b) [My Dataset Software 1] Automatic Tree Dataset Generator.
 
-:hearts: We also provided **our software** that we developed for automatically generating the 3D tree models. This is a clean version tool and you can use it to easily get different 3D tree variants of a specifed species.
+:hearts: We released **our software** that we developed for automatically generating the 3D tree models. This is a clean version tool so that you can use it to easily get different 3D tree variants of a specifed species.
 
 - ⬇️ **Download Link:** Please download our tool (light-weight version) under this **[Folder](https://github.com/RyuZhihao123/CHITreeProject/tree/main/TreeDatasetGenerator)** **(You need download the entire folder)**.
 
@@ -80,7 +80,7 @@ Considering that the Parametric L-system is not the main focus of our paper, and
 
 <div align=center>
   <img src="https://github.com/RyuZhihao123/CHITreeProject/blob/main/TreeDatasetGenerator/dataset_generator.png" width = "330" alt="ack" align=center />
-  <br/><center><b>Fig. 2.</b> The software we developed for automatically generating a large number of 3D tree models.</center>
+  <br/><center><b>Fig. 2.</b> The software we developed for automatically <br/>generating a large number of 3D tree models (100ms per tree).</center>
 </div>
 
 
