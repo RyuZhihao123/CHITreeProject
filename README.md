@@ -18,7 +18,7 @@ This repository contains the following stuffs:
 
 
 
-# 1. Tree Dataset.
+# 1. Tree Dataset Generator.
 
 
 In the very beginning, we implemented a comprehensive **Parametric l-system algorithm** ffor creating diverse high-quality 3D tree models automatically as the training dataset. 
