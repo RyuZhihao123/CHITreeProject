@@ -14,7 +14,7 @@ This is the site for the paper "DeepTreeSketch: Neural Graph Prediction for Fait
 This repository contains the following stuffs:
 - **@ Dataset Generator:** The first content in this repo is to respond the concerns from Reviewers on how to get 3D tree dataset. Thus, we released the **softwares that we developed** for automatically generating the 3D tree models for training the network. Please go to <a href="#Chapter1">[Chapter 1]</a> to download them.
 - **@ Software of DeepTreeSketch:** We releasesd the client of our DeepTreeSketch in <a href="#Chapter2">[Chapter 2]</a> (it needs to connect our server via internet).
-- **@ Software of my old sketching system:** If you cannot access our server but you're very urgent to design tree models, please try this more light-weight software of mine (<a href="https://github.com/RyuZhihao123/TreeDesigner17">[Link]</a>) which was developed several years ago by myself. Compared to our DeepTreeSketch, my old version software can be directly used offline, but please also understand its results are with relatively lower quality and fidelity than our new DeepTreeSketch system. 
+- **@ Software of my old sketching system:** This is another option. When you cannot access our server but you're very urgent to design tree models, please try this more light-weight software of mine (<a href="https://github.com/RyuZhihao123/TreeDesigner17">[Link]</a>) which was developed several years ago by myself. Compared to our DeepTreeSketch, my old version software can be directly used offline without using neural networks, but please also understand its results are with relatively lower quality and fidelity than our new DeepTreeSketch system. 
 
 
 
