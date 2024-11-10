@@ -9,7 +9,7 @@ This is the site for the paper "DeepTreeSketch: Neural Graph Prediction for Fait
 
 📙 **Paper:** [[Paper PDF]](https://drive.google.com/file/d/1hyoL_i8CPeNgi1NJd1Ay5osbsw-mATt9/view?usp=drive_link).
 
-You can find the software toolkits we developed for both interactive tree design and automated data generation, as well as the training dataset within this GitHub page.
+You can find and download the software toolkits we developed for both interactive tree design and automated data generation, as well as the training dataset within this GitHub page.
 
 <!-- 
 <a id="Chapter1"/></a>
