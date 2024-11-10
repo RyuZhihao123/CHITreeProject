@@ -9,6 +9,8 @@ This is the site for the paper "DeepTreeSketch: Neural Graph Prediction for Fait
 
 📙 **Paper:** [[Paper PDF]](https://drive.google.com/file/d/1hyoL_i8CPeNgi1NJd1Ay5osbsw-mATt9/view?usp=drive_link).
 
+You can find the software toolkits we developed for both interactive tree design and automated data generation, as well as the training dataset within this GitHub page.
+
 <!-- 
 <a id="Chapter1"/></a>
 This repository contains the following stuffs:
@@ -16,6 +18,7 @@ This repository contains the following stuffs:
 - **@ Software of DeepTreeSketch:** We releasesd the client of our DeepTreeSketch in <a href="#Chapter2">[Chapter 2]</a> (it needs to connect our server via internet).
 - **@ Software of my old sketching system:** This is another option. When you cannot access our server but you're very urgent to design tree models, please try this more light-weight software of mine (<a href="https://github.com/RyuZhihao123/TreeDesigner17">[Link]</a>) which was developed several years ago by myself. Compared to our DeepTreeSketch, my old version software can be directly used offline without using neural networks, but please also understand its results are with relatively lower quality and fidelity than our new DeepTreeSketch system. 
 -->
+
 
 
 # 1. Tree Dataset Generator.
@@ -26,8 +29,8 @@ This algorithm contributes the majority of our training set, while the rest are 
 
 - **Dataset Generator:** We have developed a series of software in advance to help us synthesize diverse high-quality 3D tree models from scratch or real-world data. **Please download my software for dataset generation from: <a href="#tool1">[Tool-1: Auto Gen]</a> and <a href="#tool2">[Tool-2: Gen from Real-data]</a>.** You can freely play with these tools to generate new 3D tree models. ⭐ 
 
-- **Dataset Link:** You can also download the experimental dataset through this [[link (version: 20220509)]](https://univtokyo-my.sharepoint.com/:u:/g/personal/1487479010_utac_u-tokyo_ac_jp/EYL59bp6A2hMsjYFnHeDZaUBVow5KimE9KsTjwQfsSPMGw?e=LUjHsy), which contains 1800 samples of various tree skeletons.
-If you need the latest version dataset (ver: 20230416), please feel free to write to us about your affiliation and purpose.
+- **Dataset Link:** You can also download the original experimental dataset through this [[link (version: 20220509)]](https://univtokyo-my.sharepoint.com/:u:/g/personal/1487479010_utac_u-tokyo_ac_jp/EYL59bp6A2hMsjYFnHeDZaUBVow5KimE9KsTjwQfsSPMGw?e=LUjHsy), which contains 1800 samples of various tree skeletons.
+We also synthesized a more advanced version that contains more species (ver: 20230416), please feel free to write to us about your affiliation and purpose. ^_^.
 
 ## (a) Foreword about Our Dataset Creation Algorithms.
 
